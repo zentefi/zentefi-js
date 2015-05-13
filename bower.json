@@ -1,8 +1,8 @@
 {
-  "name": "zframework",
-  "license": "MIT",
+  "name": "zentefi-js",
+  "license": "GNU",
   "version": "0.1",
-  "main": ["./zframework.js", "./zframework.css"],
+  "main": ["./zentefi-js.js", "./zentefi-js.css"],
   "ignore": [],
   "dependencies": {
     "ajaxform": "~1.1.1",
