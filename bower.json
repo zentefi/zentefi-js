@@ -1,5 +1,5 @@
 {
-  "name": "zentefi/zentefi-js",
+  "name": "zentefi-js",
   "license": "GNU",
   "version": "0.1",
   "main": ["./zentefi-js.js", "./zentefi-js.css"],
