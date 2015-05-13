@@ -1,0 +1,994 @@
+/* Estilos por defecto para las p�ginas HTML. ----------------------------*/
+/* se especifican tama�os generales y clases globales. Se puede usar para */
+/* otros proyectos ya que no define estilos o clases para objetos --------*/
+/* particulares ----------------------------------------------------------*/
+/*------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------*/
+/*-Estilos HTML Generales  -----------------------------------------------*/
+/*------------------------------------------------------------------------*/
+
+html {
+	overflow-y: scroll;
+	font: 11pt Tahoma, Verdana, Arial, Sans-Serif; /* Resets 1em to 10px */
+
+}
+
+body {
+	font-family: Helvetica, Sans;
+	padding: 0;
+	margin: 0;
+	color: #333;	
+	font-size: 11pt;
+}
+
+
+
+* { 
+	margin: 0;
+	background-repeat: no-repeat; 
+	font-size: inherit;
+}
+
+
+/*------------------------------------------------------------------------*/
+/*-Estilos por defecto para algunos tags   -------------------------------*/
+/*------------------------------------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	text-align: left;
+	margin: 10px 0;
+}
+
+
+h1 { font-size: 16pt; }
+
+h2 { font-size: 15pt; }
+
+h3 { font-size: 14pt; }
+
+h4 { font-size: 13pt; }
+
+h5 { font-size: 12pt; }
+
+h6 { font-size: 11pt; }
+
+
+a, a:visited { color: #007; }
+
+a { cursor: pointer;  } /* El cursor sobre los links es "pointer" (la mano) aunque no tenga href */
+
+a img { border: 0; vertical-align: middle;  }
+
+
+ul { list-style-type: none;  padding: 0; }
+
+ul li {  overflow: visible; list-style-type: none;  }
+
+
+p { margin-bottom: 20px; }
+
+
+
+/*------------------------------------------------------------------------*/
+/*-Algunas clases globales por defecto -----------------------------------*/
+/*------------------------------------------------------------------------*/
+
+
+/* Elementos en los que no se deben dibujar el rectangulo delimitador del foco */
+
+.focus-borderless:focus, .focus-borderless:active { outline: 0 !important; }
+
+
+/* Generalmente para los links, que se subrayen cuando el mouse pasa por arriba */
+
+.hover-underline { text-decoration: none; }
+
+.hover-underline:hover { text-decoration: underline; }
+
+
+/* Clases para objetos flotantes (izq y der) y la clase de clear (para despues de los objetos flotantes) */
+
+.clear, .clear-both { clear: both;  display: block; height: 0; }
+
+.float-left { float: left; }
+
+.float-right { float: right; }
+
+
+/* Clases para algunos colores de texto */
+
+.gray, .grey { color: #888; }
+
+.dark-gray, .dark-grey { color: #666; }
+
+.error { color: #F00; }
+
+.black { color: #111; }
+
+
+/* Clases para alineado de texto (horizontal) o de celda (vertical) */
+
+.center, .align-center { text-align: center !important; }
+
+.align-justify { text-align: justify !important; }
+
+.align-left { text-align: left !important; }
+
+.align-right { text-align: right !important; }
+
+.align-top { vertical-align: top !important; }
+
+.align-middle { vertical-align: middle !important; }
+
+.align-bottom { vertical-align: bottom !important; }
+
+
+
+/* Clases para tama�os de texto */
+
+.normal { font-size: 11pt !important; }
+
+.small { font-size: 10pt !important; }
+
+.smaller { font-size: 9pt !important; }
+
+.smallest { font-size: 8pt !important; }
+
+
+/* Clases para estilos de texto */
+
+.strong, .bold { font-weight: bold !important; }
+
+.underline { text-decoration: underline !important; }
+
+.italic { font-style: italic !important; }
+
+
+/* Clases para el espaciado de texto */
+
+.nowrap { white-space: nowrap !important; } /* No se rompen las lineas */
+
+.letter-spaced, .letter-spaced-1 { letter-spacing: 1px; }
+
+.letter-spaced-2 { letter-spacing: 2px; }
+
+.mono { font-family: mono; letter-spacing: 1px; } /* Texto monoespaciado (como algunos textos numericos) */
+
+
+
+/* Clases para algunos estilos predefinidos de bloques */
+
+
+.border-solid {  border-width: 1px; border-style: solid; }
+
+.separator-top { border-top: solid 1px #DDD; margin-top: 10px; padding-top: 10px; } 
+
+.separator-bottom { border-bottom: solid 1px #CCC; margin-bottom: 10px; padding-bottom: 10px; }
+
+.fill-width, .full-width { width: 100%; }
+
+
+
+/* Clases para posicionar la imagen de fondo */
+
+.background-center, .background-center-center { background-position: center center !important; }
+
+.background-right, .background-center-right { background-position: center right !important; }
+
+.background-left, .background-center-left { background-position: center left !important; }
+
+.background-top, .background-top-center { background-position: top center !important; }
+
+.background-bottom, .background-bottom-center { background-position: bottom center !important; }
+
+.background-top-left { background-position: top left !important; }
+
+.background-top-right { background-position: top right !important; }
+
+.background-bottom-left { background-position: bottom left !important; }
+
+.background-bottom-right { background-position: bottom right !important; }
+
+
+
+
+
+/* Algunas clases para los estilos de tablas m�s usados */
+
+
+table.inline { display: inline-table; }
+
+table.border-collapse, table.collapse { border-collapse: collapse; }
+
+
+
+
+/*------------------------------------------------------------------------*/
+/*-Algunos objetos de uso com�n ------------------------------------------*/
+/*------------------------------------------------------------------------*/
+
+
+/* L�nea para separar bloques */
+div.separator { border-bottom: solid 1px #CCC; height: 2px; margin: 5px 0 10px; }
+
+/* L�nea para separar bloques, m�s peque�a */
+div.separator-small { border-bottom: solid 1px #CCC; height: 2px; margin: 0 0 0px; }
+
+
+/* Espacio entre bloques */
+div.space { height: 2px; margin: 0 0 20px; }
+
+
+/* Linea horizontal */
+div.line { border-top: solid 1px #888; margin: 10px auto 10px; height: 1px; padding: 0; }
+
+
+/* Linea vertical para separar bloques a la izquierda */
+div.separator-left { border-left: solid 1px #DDD;  padding: 0 0 0 20px; margin: 0; }
+
+
+/* Linea vertical para separar bloques a la derecha */
+div.separator-right { border-right: solid 1px #DDD;  padding: 0 20px 0 0; margin: 0; }
+
+
+/* Espacio a la izquierda */
+div.space-left { padding-left: 20px; }
+
+
+/* Espacio a la izquierda */
+div.space-right { padding-right: 20px; }
+
+
+/* Separador de texto */
+span.separator { padding: 0 10px; vertical-align: middle; }
+
+/* Separador de texto, m�s peque�o */
+span.separator-small { padding: 0 5px; vertical-align: middle; }
+
+
+
+/* Sufijo */
+span.sufix { color: #444; padding-left: 5px; }
+
+
+/* Prefijo */
+span.prefix { color: #444; padding-right: 10px; }
+
+
+/* Super�ndice */
+span.sup { font-size: 9pt; position: relative; top: -4px; left: 2px; }
+
+
+*.inline-block, *.display-inline-block { display: inline-block; }
+
+*.table-cell, *.display-table-cell { display: table-cell; }
+
+*.block, *.display-block { display: block}
+
+*.visible { visibility: visible; }
+
+*.hidden { visibility: hidden; }
+
+*.fixed, *.position-fixed { position: fixed; z-index: 100;}
+
+*.relative, *.position-relative { position: relative; }
+
+*.absolute, *.position-absolute { position: absolute; }
+
+.margin-width-auto { margin: 0 auto; }
+
+
+
+.loading-center-32 {
+	background-image: url(./images/loading-icon-32.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+
+.loading-center-22 {
+	background-image: url("./images/loading-icon-22.gif");
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.loading-center-14 {
+	background-image: url(./images/loading-icon-14.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.htmlinputcontrol-label {
+	margin: 0 10px 0 0;
+}
+
+.select2-highlighted * {
+	color: inherit;
+}
+
+.select2-result-label {
+	text-align: left;
+}
+
+span.input-checkbox input,
+span.input-radio input {
+	vertical-align: middle;
+	margin-right: 5px;
+	margin-top: 0 !important;
+}
+
+span.input-checkbox.align-right input,
+span.input-radio.align-right input {
+	margin-right: 0;
+	margin-left: 5px;
+}
+
+span.input-checkbox label,
+span.input-radio label {
+	vertical-align: middle;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+span.input-checkbox label:hover,
+span.input-radio label:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.display-none {
+	display: none;
+}
+
+.display-block {
+	display: block;
+}
+
+.display-inline {
+	display: inline;
+}
+
+.display-inline-block {
+	display: inline-block;
+}
+
+*.highlight:hover,
+tr.highlight:hover td {
+	background: highlight !important;
+	color: highlighttext !important;
+}
+
+tr.highlight:hover td a,
+*.highlight:hover a {
+	color: highlighttext !important;
+}
+
+.cursor-pointer,
+tr.cursor-pointer td,
+tr.cursor-pointer th {
+	cursor: pointer;
+}
+
+@media print {
+	
+	.not-print,.not-printable {
+		display: none !important;
+	}
+}
+
+
+.modal-dialog
+{
+	/*width: 800px;*/
+	background: #FFF;
+	/*margin-top: 80px !important;*/
+	position: fixed;
+	/*top: 0;*/
+	/*left: 50%;*/
+	border: solid 1px #777;
+	box-shadow: 0 0 2px 2px rgba(0,0,0,0.4);
+	border-radius: 5px;
+}
+
+.modal-backdrop.in
+{
+	background: rgba(0,0,0,0.7);
+	opacity: 1;
+}
+
+.modal-header
+{
+	padding: 5px 15px;
+	background: #555;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 10pt;
+}
+
+.modal-footer
+{
+	background: #EAEAEA;
+	padding: 20px 15px;
+	border-top: solid 1px #666;
+	margin-top: 20px;
+}
+
+.modal-footer button
+{
+	padding: 5px 30px;
+	margin: 0 0 0 30px !important;
+	border: solid 1px #BBB;
+}
+
+.modal-body
+{
+	/*margin-right: 40px;*/
+	width: 100%;
+}
+
+.select2-container a,
+.input-border.text,
+.input-border.textarea
+{
+	border: solid 1px #666 !important;
+	padding: 4px 6px;
+	border-radius: 3px;
+	/*width: 250px;*/
+	width: 100%;
+}
+
+.input-border.label
+{
+	color: #000;
+	font-size: 11pt;
+	line-height: 25px !important;
+}
+
+.input-border.text:active,
+.input-border.text:focus,
+.input-border.textarea:active,
+.input-border.textarea:focus
+{
+	border: solid 1px #444;
+	box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.3);
+}
+
+.input-control label.input-label
+{
+	margin: 1px 50px 0 0;
+	vertical-align: top;
+	white-space: nowrap;
+	position: relative;
+	display: inline-block !important;
+    line-height: 200%;
+}
+
+
+.input-control label.input-label:after{
+	content: " : ";
+	position: absolute;
+	/*top: -2px;*/
+}
+
+.input-control .input-container{
+	float: right;
+	text-align: left;
+	width: 60%;
+}
+
+form.labels-fixed-width .input-control,
+form.labels-fixed-width .modal-footer,
+form.labels-fixed-width .separator
+{
+	clear: both;
+}
+
+form.labels-fixed-width .modal-footer
+{
+	margin-top: 30px;
+}
+
+form.labels-fixed-width .input-control .input-container{
+	width: auto !important;
+	float: left !important;
+}
+
+form.labels-fixed-width .input-control .input-container .text,
+form.labels-fixed-width .input-control .input-container .textarea {
+	width: auto;
+}
+
+form.labels-fixed-width .input-control .input-container .file-input
+{
+	display: inline;
+	width: auto;
+
+}
+
+form.labels-fixed-width .input-control label.input-label
+{
+	display: inline-block !important;
+	float: left;
+	padding-bottom: 3%;
+}
+
+form.labels-fixed-width .input-control label.input-label:after
+{
+	top: 0;
+}
+
+form.labels-fixed-width .input-control .input-image-container .input-control-checkbox
+{
+	margin: 0;
+}
+
+form.labels-fixed-width .input-control-checkbox .input-container
+{
+	float: none !important;
+}
+
+form.labels-fixed-width .input-control-checkbox label.input-label
+{
+	padding-bottom: 0;
+}
+
+form.labels-fixed-width .input-control .input-image-container
+{
+	margin: 20px 0 0 0;
+}
+
+form.labels-fixed-width .input-control .input-image-container .image-input-img
+{
+	margin: 0 20px 0 0;
+}
+
+.input-row
+{
+	padding: 15px 10px !important;
+}
+
+.input-control-radio input.input-radio,
+.input-control-checkbox input.input-checkbox
+{
+	display: inline !important;
+}
+
+.input-control-radio label.input-label,
+.input-control-checkbox label.input-label
+{
+	vertical-align: middle;
+	font-weight: normal;
+	margin: 0 0 0 10px;
+	position: relative;
+	top: -2px;
+	cursor: pointer;
+	float: none !important;
+}
+
+.input-control-radio label:hover,
+.input-control-checkbox label:hover
+{
+	text-decoration: underline;
+}
+
+.input-control-select select
+{
+	border: solid 1px #777;
+	padding: 3px 5px;
+	background: #FAFAFA;
+	border-radius: 5px;
+}
+
+
+.input-control-select select:active,
+.input-control-select select:focus
+{
+	border: solid 1px #555;
+	box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.3);
+}
+
+
+.input-control-select2 label.input-label,
+.input-control-autocomplete label.input-label
+{
+	/*margin-top: 7px !important;*/
+}
+
+.input-control-select2 .select2-choice,
+.input-control-autautocomplete .select2-choice
+{
+	border-color: #777;
+}
+
+
+.input-control-select2 .select2-container .select2-choice .select2-arrow,
+.input-control-autocomplete .select2-container .select2-choice .select2-arrow {
+	border-left: solid 1px #AAA !important;
+}
+
+.se.input-control-autocomplete .select2-container .select2-no-results,
+.input-control-autocomplete .select2-container .select2-searchingorm.dialog-form fieldset
+{
+	padding: 10px 30px 0;
+}
+
+form.dialog-form fieldset.fixed-labels label.input-label
+{
+	width: 30%;
+}
+
+form.dialog-form fieldset.margin-left-labels
+{
+	padding-left: 50px;
+}
+
+form.dialog-form fieldset.margin-left-labels div.input-row
+{
+	margin-left: 30%;
+}
+
+form.dialog-form div.input-row
+{
+	padding: 10px 20px 10px;
+}
+
+
+form.dialog-form fieldset.right-links
+{
+	text-align: right;
+	padding-right: 10px;
+}
+
+
+form.dialog-form fieldset.right-links a
+{
+	margin: 0 0 0 20px;
+	font-size: 10pt;
+	text-decoration: underline;
+}
+
+
+.modal-loading
+{
+	text-align: center;
+
+}
+
+.modal-loading .modal-body
+{
+	padding: 0 150px 30px;
+	vertical-align: middle;
+	width: 400px;
+}
+
+.modal-loading .modal-body .content-block
+{
+	line-height: 30px;
+}
+
+.modal-loading .modal-body .text
+{
+	margin: 0 0 0 30px;
+	font-weight: bold;
+}
+
+.modal-loading .modal-body .icon
+{
+	margin: 0 30px 0 0;
+}
+
+form .error-block
+{
+	color: #FFF !important;
+	background: #F00;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 0 0 30px 0;
+}
+
+.alert-dialog
+{
+	font-weight: bold;
+}
+
+.alert-dialog .modal-body
+{
+	padding: 40px 40px;
+}
+
+
+
+table.dataTable
+{
+	width: 100%;
+	border-collapse: collapse;
+	border: solid 1px #333;
+	overflow: hidden;
+	/*border-radius: 10px !important;*/
+	box-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+	background: #FFF;
+	margin: 30px 0 20px;
+
+}
+
+table.dataTable thead tr
+{
+	background: #012D39;
+}
+
+table.dataTable thead th,
+table.dataTable thead td
+{
+	border-bottom: solid 1px #333 !important;
+	border-left: solid 1px #888;
+	padding: 7px 10px !important;
+	color: #EEE;
+	font-size: 10pt !important;
+}
+
+table.dataTable thead th:first-child,
+table.dataTable thead td:first-child
+{
+	border-left: 0;
+}
+
+table.dataTable tbody td,
+table.dataTable tbody th
+{
+	border: solid 1px #999;
+	padding: 10px 10px;
+}
+
+table.dataTable tr:first-child td,
+table.dataTable tr:first-child th
+{
+	border-top: 0;
+}
+
+table.dataTable tr:last-child td,
+table.dataTable tr:last-child th
+{
+	border-bottom: 0;
+}
+
+table.dataTable tr td:first-child,
+table.dataTable tr th:first-child
+{
+	border-left: 0;
+}
+
+table.dataTable tr td:last-child,
+table.dataTable tr th:last-child
+{
+	border-right: 0;
+}
+
+table.dataTable tbody tr:nth-child(2n) td
+{
+	background: rgba(0,0,0,0.01);
+}
+
+table.dataTable tbody tr:hover
+{
+	background: rgba(0,0,0,0.09);
+}
+
+div.dataTables_filter
+{
+	padding: 0 0 20px 0;
+}
+
+div.dataTables_length select
+{
+	padding: 0 !important;
+	line-height: 20px !important;
+	height: 24px !important;
+	margin: 0 5px;
+	border-color: #555 !important;
+	border-radius: 5px;
+	background: #FFF;
+}
+
+div.dataTables_filter input
+{
+	box-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+	padding: 0 5px !important;
+	line-height: 20px !important;
+	height: 26px !important;
+	margin: 0 0 0 5px !important;
+	border: solid 1px #555 !important;
+	border-radius: 5px;
+	background: #FFF;
+}
+
+div.dataTables_filter .form-control
+{
+	margin: 0 0 0 10px !important;
+}
+
+.dataTables_wrapper .row:last-child
+{
+	margin: 20px -10px 0;
+	padding: 0;
+}
+
+.dataTables_wrapper .dataTables_info
+{
+	font-weight: bold;
+}
+
+.dataTables_wrapper ul
+{
+	box-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+.dataTables_wrapper .dataTables_paginate a
+{
+	border-color: #666 !important;
+	text-align: center;
+	padding: 5px 10px !important;
+	margin: 0 0 0 15px !important;
+	min-width: 150px;
+	border-radius: 3px;
+	background: #FEFEFE;
+}
+
+.dataTables_wrapper
+{
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover
+{
+	background: #012D39 !important;
+	color: #FFF !important;
+}
+
+table.dataTable tr.folderRow td
+{
+	background-color: #DDD;
+	font-weight: bold !important;
+}
+
+
+table.dataTable tr.folderRow .folder-column
+{
+	width: 20px;
+}
+
+table.dataTable.tree-table tr td:nth-child(2)
+{
+	border-left: 0 !important;
+}
+
+table.dataTable.tree-table tr td:nth-child(1)
+{
+	border-right: 0 !important;
+}
+
+table.dataTable td.buttons,
+table.dataTable th.buttons
+{
+	width: 120px;
+	text-align: center;
+}
+
+table.dataTable td.buttons a
+{
+	color: #222;
+	margin: 0 5px;
+}
+
+.datatable-container
+{
+	margin: 20px 0 20px 0;
+}
+
+.datatable-empty
+{
+	margin: 40px 0 20px 0;
+	font-weight: bold;
+	box-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+table.dataTable input.checkbox
+{
+	cursor: pointer;
+}
+
+table.dataTable tbody tr:hover td
+{
+	background: #EAEAEA;
+}
+
+table.dataTable tbody tr.checked td
+{
+	background: #E5E5E5;
+}
+
+.btn *:first-child
+{
+	margin-right: 10px;
+}
+
+.file-input
+{
+	border: solid 1px #666;
+	padding: 10px 20px;
+	background: #EEE;
+	border-radius: 5px;
+	width: 100%;
+}
+
+form.form div.separator
+{
+	margin-top: 20px;
+	border-color: #999;
+}
+
+.input-image-container img
+{
+	border: solid 1px #555;
+	box-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+
+.input-image-container img.todelete
+{
+	opacity: 0.5;
+}
+
+
+.input-image-container .input-control-checkbox
+{
+	display: inline;
+	vertical-align: top;
+	margin: 0 0 0 20px;
+}
+
+.input-image-container .input-control-checkbox label
+{
+	text-decoration: underline;
+}
+
+.input-control-checkbox .input-container
+{
+	width: auto;
+	float: none !important;
+}
+
+.input-control-checkbox label.input-label::after
+{
+	content: '';
+}
+
+.input-border.text-numeric
+{
+	text-align: right;
+	font-family: mono;
+	width: 100px !important;
+    font-size: 11pt;
+}
+
+input.invoice-number
+{
+    /*text-align: center;*/
+    width: 230px !important;
+}
+
+::-moz-placeholder,
+:-ms-input-placeholder,
+input:-moz-placeholder {
+    text-align: left !important;
+}
+
+.date-text
+{
+    text-align: center;
+}
+
+form.form .form-row
+{
+    clear: both;
+}
