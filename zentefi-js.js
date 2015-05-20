@@ -53,61 +53,9 @@ Language.setLanguage = function(l)
 
 Language.texts = {};
 
-Language.texts['es'] = {"account_activated":"Su cuenta fuÃ© activada","actions":"Acciones","activate_account":"Activar Cuenta","activate_account_complete":"Enviamos un e-mail a su casilla de correo","changed_password":"Se ha cambiado su contraseÃ±a","change_password":"Cambiar Password","contact_us":"ContÃ¡ctenos","contact_us_complete":"Se ha enviado el mensaje correctamente","deposits":"DepÃ³sitos","developed_by":"Desarrollado por","empty_list":"No se encontraron elementos","forgot_password":"OlvidÃ³ su ContraseÃ±a","forgot_password_complete":"Enviamos un e-mail a su casilla de correo","login":"Iniciar SesiÃ³n","logout":"Cerrar SesiÃ³n","message_empty":"El mensaje estÃ¡ vacÃ­o","name_empty":"El nombre estÃ¡ vacÃ­o","pass_format":"MÃ­nimo 6 caracteres. Permitidos A-Z 0-9 y - _ .","privacy_html":"<strong>Privacidad</strong>\n<br />\n<br />\nTÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos 
-y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones 
-TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y 
-Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones \n\n<br />\n<br />\nTÃ©rminos y Condiciones TÃ©rminos y Condiciones 
-TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y 
-Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones 
-TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y 
-Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones \n\n<br />\n<br />\nTÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones 
-TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y 
-Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones 
-TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones ","privacy_policy":"PolÃ­tica de Privacidad","register":"Registrarse","register_complete":"Se ha completado su registro<br /><br />Enviamos un e-mail a su casilla de correo","remember_user":"Recordar Usuario","terms":"TÃ©rminos y Condiciones","terms_html":"<strong>TÃ©rminos y Condiciones</strong>\n<br />\n<br />\nTÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y 
-Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones 
-TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y 
-Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones \n\n<br />\n<br />\nTÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones 
-TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y 
-Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones 
-TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones \n\n<br />\n<br />\nTÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y 
-Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones 
-TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y 
-Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones ","icon_url":"/static/zframework/icons/flags/es-25.png","flag_class":"icon-flag ar","abbr":"es","gmap_view_type_hybrid":"Vista HÃ­brida","gmap_view_
-type_roadmap":"Vista Mapa","gmap_view_type_satellite":"Vista SatÃ©lite","gmap_view_type_terrain":"Vista Terreno","accept":"Aceptar","cancel":"Cancelar","delete":"Eliminar","add":"Agregar","edit":"Editar","language_name":"EspaÃ±ol","loading":"Cargando","all":"Todos","next":"Siguiente","previous":"Anterior","download":"Descargar","print":"Imprimir","save":"Guardar","update":"Actualizar","close":"Cerrar","select_file":"Seleccionar archivo","name":"Nombre","value":"Valor","optional":"Opcional","status":"Estado","active":"Activo","inactive":"Inactivo","used":"Usado","new":"Nuevo","controls":"Controles","showing":"Mostrando","of":"de","pages":"PÃ¡ginas","page":"PÃ¡gina","found_1_record":"Se encontrÃ³ un registro","found_n_records":"Se encontraron %s registro","no_matches_found":"No se encontraron coincidencias","search":"Buscar","option_yes":"SÃ­","indistinct":"Indistinto","any":"Cualquiera","clear":"Limpiar","select":"Seleccionar","not_specified":"No especificar","searching":"Buscando","image":"Imagen","images":"
-ImÃ¡genes","photo":"Foto","photos":"Fotos","text":"Texto","texts":"Textos","language_version":"VersiÃ³n en EspaÃ±ol","move":"Mover","contact":"Contacto","contacts":"Contactos","location_weather_cond_tornado":"Tornado","location_weather_cond_tropicalstorm":"Tormenta Tropical","location_weather_cond_hurricane":"HuracÃ¡n","location_weather_cond_severethunderstorms":"Tormentas Severas","location_weather_cond_thunderstorms":"Tormentas ElÃ©ctricas","location_weather_cond_mixedrainandsnow":"Lluvia y Nieve Mixta","location_weather_cond_mixedrainandsleet":"Lluvia Mixta Y Aguanieve","location_weather_cond_mixedsnowandsleet":"Nieve Mixta Y Aguanieve","location_weather_cond_freezingdrizzle":"Llovizna Helada","location_weather_cond_drizzle":"Llovizna","location_weather_cond_freezingrain":"Lluvia Helada","location_weather_cond_showers":"Duchas","location_weather_cond_snowflurries":"Copos De Nieve","location_weather_cond_lightsnowshowers":"Nieve Ligeras","location_weather_cond_blowingsnow":"Nieve Que Sopla","location_
-weather_cond_snow":"Nieve","location_weather_cond_hail":"Granizo","location_weather_cond_sleet":"Aguanieve","location_weather_cond_dust":"Polvo","location_weather_cond_foggy":"Brumoso","location_weather_cond_haze":"Neblina","location_weather_cond_smoky":"Ahumado","location_weather_cond_blustery":"Borrascoso","location_weather_cond_windy":"Ventoso","location_weather_cond_cold":"FrÃ­o","location_weather_cond_cloudy":"Nublado","location_weather_cond_mostlycloudynight":"Parcialmente Nublado (Noche)","location_weather_cond_mostlycloudyday":"Parcialmente Nublado (DÃ­a)","location_weather_cond_partlycloudynight":"Parcialmente Nublado (Noche)","location_weather_cond_partlycloudyday":"Parcialmente Nublado (DÃ­a)","location_weather_cond_clearnight":"Claro (Noche)","location_weather_cond_sunny":"Soleado","location_weather_cond_fairnight":"Despejado (Noche)","location_weather_cond_fairday":"Despejado (DÃ­as)","location_weather_cond_mixedrainandhail":"La Lluvia Y El Granizo Mezclado","location_weather_cond_hot":"Caliente"
-,"location_weather_cond_isolatedthunderstorms":"Tormentas ElÃ©ctricas Aisladas","location_weather_cond_scatteredthunderstorms":"Tormentas ElÃ©ctricas Dispersas","location_weather_cond_scatteredshowers":"Lluvias Aisladas","location_weather_cond_heavysnow":"Fuertes Nevadas","location_weather_cond_scatteredsnowshowers":"Nieve Dispersos","location_weather_cond_partlycloudy":"Parcialmente Nublado","location_weather_cond_thundershowers":"Tormentosos","location_weather_cond_snowshowers":"Nieve","location_weather_cond_isolatedthundershowers":"Chubascos Aislados","location_weather_cond_notavailable":"No Disponible","weather_max_temp":"MÃ¡xima","weather_min_temp":"MÃ­nima","weather_temp":"Temperatura","weather_condition":"CondiciÃ³n","weather_wind_speed":"Velocidad del Viento","weather_humidity":"Humedad","weather_pressure":"PresiÃ³n","weather_sunrise":"Amanecer","weather_sunset":"Anochecer","date_month_name_long_jan":"Enero","date_month_name_long_feb":"Febrero","date_month_name_long_mar":"Marzo","date_month_name_long_
-apr":"Abril","date_month_name_long_may":"Mayo","date_month_name_long_jun":"Junio","date_month_name_long_jul":"Julio","date_month_name_long_aug":"Agosto","date_month_name_long_sep":"Septiembre","date_month_name_long_oct":"Octubre","date_month_name_long_nov":"Noviembre","date_month_name_long_dec":"Diciembre","date_month_name_short_jan":"Ene","date_month_name_short_feb":"Feb","date_month_name_short_mar":"Mar","date_month_name_short_apr":"Abr","date_month_name_short_may":"May","date_month_name_short_jun":"Jun","date_month_name_short_jul":"Jul","date_month_name_short_aug":"Ago","date_month_name_short_sep":"Sep","date_month_name_short_oct":"Oct","date_month_name_short_nov":"Nov","date_month_name_short_dec":"Dic","date_day_name_long_mon":"Lunes","date_day_name_long_tue":"Martes","date_day_name_long_wed":"MiÃ©rcoles","date_day_name_long_thu":"Jueves","date_day_name_long_fri":"Viernes","date_day_name_long_sat":"SÃ¡bado","date_day_name_long_sun":"Domingo","date_day_name_short_mon":"Lun","date_day_name_short_tue":"Mar",
-"date_day_name_short_wed":"MiÃ©","date_day_name_short_thu":"Jue","date_day_name_short_fri":"Vie","date_day_name_short_sat":"SÃ¡b","date_day_name_short_sun":"Dom","date_yesterday":"Ayer","date_today":"Hoy","date_tomorrow":"MaÃ±ana","date_now":"Ahora","send":"Enviar","email":"E-Mail","city":"Ciudad","cellphone":"Celular","telephone":"TelÃ©fono","consultation":"Consulta","site_under_construction":"Sitio en ConstrucciÃ³n","site_under_maintenance":"Sitio en Mantenimiento","news":"Novedades","home":"Inicio","history":"Historia","menu":"MenÃº","message":"Mensaje","reset":"Limpiar","error_email_empty":"Debe especificar un e-mail vÃ¡lido","error_name_empty":"Debe especificar un nombre","error_message_empty":"Debe especificar un texto","language_version_en":"VersiÃ³n en InglÃ©s","language_version_es":"VersiÃ³n en EspaÃ±ol","language_version_fr":"VersiÃ³n en FrancÃ©s","datatables_length_menu":"Mostrando _MENU_ por pÃ¡gina","datatables_zero_records":"No se encontraron registros","datatables_info":"Mostrando pÃ¡gina _
-PAGE_ de _PAGES_","datatables_info_empty":"No se encontraron registros","datatables_info_filtered":"(filtrados de _MAX_ registros totales)","datatables_empty_table":"No hay datos","datatables_loading_records":"Por favor espere - cargando...","datatables_first":"Primero","datatables_last":"Ãšltimo","datatables_next":"PrÃ³ximo","datatables_previous":"Anterior","datatables_search":"Buscar:","datatables_search_placeholder":"Buscar","datatables_thousands":".","datatables_decimal":",","main":"Principal","password":"Password","repeat_email":"Repetir Email","repeat_pass":"Repetir ContraseÃ±a","html_input_control_captcha_label":"Introduzca el cÃ³digo","html_input_control_captcha_load_code":"Cargar otro cÃ³digo","html_input_control_captcha_error_code":"El cÃ³digo captcha no es correcto","html_input_control_captcha_error_expired":"El cÃ³digo captcha ha expirado","code":"CÃ³digo","multiple_actions":"Acciones MÃºltiples","address":"DirecciÃ³n", 'confirm_delete': '¿Está seguro que desea eliminar?'};
+Language.texts['es'] = {"account_activated":"Su cuenta fué activada","actions":"Acciones","activate_account":"Activar Cuenta","activate_account_complete":"Enviamos un e-mail a su casilla de correo","changed_password":"Se ha cambiado su contraseña","change_password":"Cambiar Password","contact_us":"Contáctenos","contact_us_complete":"Se ha enviado el mensaje correctamente","deposits":"Depósitos","developed_by":"Desarrollado por","empty_list":"No se encontraron elementos","forgot_password":"Olvidó su Contraseña","forgot_password_complete":"Enviamos un e-mail a su casilla de correo","login":"Iniciar Sesión","logout":"Cerrar Sesión","message_empty":"El mensaje está vacío","name_empty":"El nombre está vacío","pass_format":"Mínimo 6 caracteres. Permitidos A-Z 0-9 y - _ .","icon_url":"/static/zframework/icons/flags/es-25.png","flag_class":"icon-flag ar","abbr":"es","gmap_view_type_hybrid":"Vista Híbrida","gmap_view_type_roadmap":"Vista Mapa","gmap_view_type_satellite":"Vista Satélite","gmap_view_type_terrain":"Vista Terreno","accept":"Aceptar","cancel":"Cancelar","delete":"Eliminar","add":"Agregar","edit":"Editar","language_name":"Español","loading":"Cargando","all":"Todos","next":"Siguiente","previous":"Anterior","download":"Descargar","print":"Imprimir","save":"Guardar","update":"Actualizar","close":"Cerrar","select_file":"Seleccionar archivo","name":"Nombre","value":"Valor","optional":"Opcional","status":"Estado","active":"Activo","inactive":"Inactivo","used":"Usado","new":"Nuevo","controls":"Controles","showing":"Mostrando","of":"de","pages":"Páginas","page":"Página","found_1_record":"Se encontró un registro","found_n_records":"Se encontraron %s registro","no_matches_found":"No se encontraron coincidencias","search":"Buscar","option_yes":"Sí","indistinct":"Indistinto","any":"Cualquiera","clear":"Limpiar","select":"Seleccionar","not_specified":"No especificar","searching":"Buscando","image":"Imagen","images":"Imágenes","photo":"Foto","photos":"Fotos","text":"Texto","texts":"Textos","language_version":"Versión en Español","move":"Mover","contact":"Contacto","contacts":"Contactos","location_weather_cond_tornado":"Tornado","location_weather_cond_tropicalstorm":"Tormenta Tropical","location_weather_cond_hurricane":"Huracán","location_weather_cond_severethunderstorms":"Tormentas Severas","location_weather_cond_thunderstorms":"Tormentas Eléctricas","location_weather_cond_mixedrainandsnow":"Lluvia y Nieve Mixta","location_weather_cond_mixedrainandsleet":"Lluvia Mixta Y Aguanieve","location_weather_cond_mixedsnowandsleet":"Nieve Mixta Y Aguanieve","location_weather_cond_freezingdrizzle":"Llovizna Helada","location_weather_cond_drizzle":"Llovizna","location_weather_cond_freezingrain":"Lluvia Helada","location_weather_cond_showers":"Duchas","location_weather_cond_snowflurries":"Copos De Nieve","location_weather_cond_lightsnowshowers":"Nieve Ligeras","location_weather_cond_blowingsnow":"Nieve Que Sopla","location_weather_cond_snow":"Nieve","location_weather_cond_hail":"Granizo","location_weather_cond_sleet":"Aguanieve","location_weather_cond_dust":"Polvo","location_weather_cond_foggy":"Brumoso","location_weather_cond_haze":"Neblina","location_weather_cond_smoky":"Ahumado","location_weather_cond_blustery":"Borrascoso","location_weather_cond_windy":"Ventoso","location_weather_cond_cold":"Frío","location_weather_cond_cloudy":"Nublado","location_weather_cond_mostlycloudynight":"Parcialmente Nublado (Noche)","location_weather_cond_mostlycloudyday":"Parcialmente Nublado (Día)","location_weather_cond_partlycloudynight":"Parcialmente Nublado (Noche)","location_weather_cond_partlycloudyday":"Parcialmente Nublado (Día)","location_weather_cond_clearnight":"Claro (Noche)","location_weather_cond_sunny":"Soleado","location_weather_cond_fairnight":"Despejado (Noche)","location_weather_cond_fairday":"Despejado (Días)","location_weather_cond_mixedrainandhail":"La Lluvia Y El Granizo Mezclado","location_weather_cond_hot":"Caliente","location_weather_cond_isolatedthunderstorms":"Tormentas Eléctricas Aisladas","location_weather_cond_scatteredthunderstorms":"Tormentas Eléctricas Dispersas","location_weather_cond_scatteredshowers":"Lluvias Aisladas","location_weather_cond_heavysnow":"Fuertes Nevadas","location_weather_cond_scatteredsnowshowers":"Nieve Dispersos","location_weather_cond_partlycloudy":"Parcialmente Nublado","location_weather_cond_thundershowers":"Tormentosos","location_weather_cond_snowshowers":"Nieve","location_weather_cond_isolatedthundershowers":"Chubascos Aislados","location_weather_cond_notavailable":"No Disponible","weather_max_temp":"Máxima","weather_min_temp":"Mínima","weather_temp":"Temperatura","weather_condition":"Condición","weather_wind_speed":"Velocidad del Viento","weather_humidity":"Humedad","weather_pressure":"Presión","weather_sunrise":"Amanecer","weather_sunset":"Anochecer","date_month_name_long_jan":"Enero","date_month_name_long_feb":"Febrero","date_month_name_long_mar":"Marzo","date_month_name_long_apr":"Abril","date_month_name_long_may":"Mayo","date_month_name_long_jun":"Junio","date_month_name_long_jul":"Julio","date_month_name_long_aug":"Agosto","date_month_name_long_sep":"Septiembre","date_month_name_long_oct":"Octubre","date_month_name_long_nov":"Noviembre","date_month_name_long_dec":"Diciembre","date_month_name_short_jan":"Ene","date_month_name_short_feb":"Feb","date_month_name_short_mar":"Mar","date_month_name_short_apr":"Abr","date_month_name_short_may":"May","date_month_name_short_jun":"Jun","date_month_name_short_jul":"Jul","date_month_name_short_aug":"Ago","date_month_name_short_sep":"Sep","date_month_name_short_oct":"Oct","date_month_name_short_nov":"Nov","date_month_name_short_dec":"Dic","date_day_name_long_mon":"Lunes","date_day_name_long_tue":"Martes","date_day_name_long_wed":"Miércoles","date_day_name_long_thu":"Jueves","date_day_name_long_fri":"Viernes","date_day_name_long_sat":"Sábado","date_day_name_long_sun":"Domingo","date_day_name_short_mon":"Lun","date_day_name_short_tue":"Mar","date_day_name_short_wed":"Mié","date_day_name_short_thu":"Jue","date_day_name_short_fri":"Vie","date_day_name_short_sat":"Sáb","date_day_name_short_sun":"Dom","date_yesterday":"Ayer","date_today":"Hoy","date_tomorrow":"Mañana","date_now":"Ahora","send":"Enviar","email":"E-Mail","city":"Ciudad","cellphone":"Celular","telephone":"Teléfono","consultation":"Consulta","site_under_construction":"Sitio en Construcción","site_under_maintenance":"Sitio en Mantenimiento","news":"Novedades","home":"Inicio","history":"Historia","menu":"Menú","message":"Mensaje","reset":"Limpiar","error_email_empty":"Debe especificar un e-mail válido","error_name_empty":"Debe especificar un nombre","error_message_empty":"Debe especificar un texto","language_version_en":"Versión en Inglés","language_version_es":"Versión en Español","language_version_fr":"Versión en Francés","datatables_length_menu":"Mostrando _MENU_ por página","datatables_zero_records":"No se encontraron registros","datatables_info":"Mostrando página _PAGE_ de _PAGES_","datatables_info_empty":"No se encontraron registros","datatables_info_filtered":"(filtrados de _MAX_ registros totales)","datatables_empty_table":"No hay datos","datatables_loading_records":"Por favor espere - cargando...","datatables_first":"Primero","datatables_last":"èltimo","datatables_next":"Próximo","datatables_previous":"Anterior","datatables_search":"Buscar:","datatables_search_placeholder":"Buscar","datatables_thousands":".","datatables_decimal":",","main":"Principal","password":"Password","repeat_email":"Repetir Email","repeat_pass":"Repetir Contraseña","html_input_control_captcha_label":"Introduzca el código","html_input_control_captcha_load_code":"Cargar otro código","html_input_control_captcha_error_code":"El código captcha no es correcto","html_input_control_captcha_error_expired":"El código captcha ha expirado","code":"Código","multiple_actions":"Acciones Múltiples","address":"Dirección", 'confirm_delete': '�Est� seguro que desea eliminar?'};
 
-Language.texts['en'] = {"account_activated":"Your account was activated","actions":"Actions","activate_account":"Activate Account","activate_account_complete":"We sent you an e-mail","changed_password":"Your password was changed","change_password":"Change Password","contact_us":"Contact Us","contact_us_complete":"The message was sent","deposits":"Deposits","developed_by":"Developed by","empty_list":"No elements where found","forgot_password":"Forgot your Password","forgot_password_complete":"We sent you an e-mail","login":"Login","logout":"Logout","message_empty":"The message is empty","name_empty":"The name is empty","pass_format":"At least 6 chars. Allowed A-Z 0-9 y - _ .","privacy_html":"<strong>Privacidad</strong>\n<br />\n<br />\nTÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y 
-Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones 
-TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y 
-Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones \n\n<br />\n<br />\nTÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones 
-TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y 
-Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones 
-TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones \n\n<br />\n<br />\nTÃ©rminos y 
-Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones 
-TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y 
-Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones 
-TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones ","privacy_policy":"Privacy Policy","register":"Register","register_complete":"Your register is complete<br /><br />We sent you an e-mail","remember_user":"Remember User","terms":"Terms and Conditions","terms_html":"<strong>TÃ©rminos y Condiciones</strong>\n<br />\n<br />\nTÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones 
-TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y 
-Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones 
-TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones \n\n<br />\n<br />\nTÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y 
-Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones 
-TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y 
-Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones \n\n<br />\n<br />\nTÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones 
-TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y 
-Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones 
-TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones TÃ©rminos y Condiciones ","icon_url":"/static/zframework/icons/flags/en-25.png","flag_class":"icon-flag us","abbr":"en","gmap_view_type_hybrid":"Hybrid View","gmap_view_type_roadmap":"Roadmap View","gmap_view_type_satellite":"Satellite View","gmap_view_type_terrain":"Terrain View","cancel":"Cancel","
-accept":"Accept","add":"Add","edit":"Edit","delete":"Remove","language_name":"English","loading":"Loading","all":"All","next":"Next","previous":"Previous","download":"Download","print":"Print","save":"Save","update":"Update","close":"Close","select_file":"Select file","name":"Name","value":"Value","optional":"Optional","status":"Status","active":"Active","inactive":"Inactive","used":"Used","new":"New","controls":"Controls","showing":"Showing","of":"of","pages":"Pages","page":"Page","found_1_record":"Found one record","found_n_records":"Found %s records","no_matches_found":"No matches found","search":"Search","option_yes":"Yes","indistinct":"Indistinct","any":"Any","clear":"Clear","select":"Select","not_specified":"Not specified","searching":"Searching","image":"Image","images":"Images","photo":"Photo","photos":"Photos","text":"Text","texts":"Texts","language_version":"English Version","move":"Move","contact":"Contact","contacts":"Contacts","location_weather_cond_tornado":"Tornado","location_weather_cond_
-tropicalstorm":"Tropical Storm","location_weather_cond_hurricane":"Hurricane","location_weather_cond_severethunderstorms":"Severe Thunderstorms","location_weather_cond_thunderstorms":"Thunderstorms","location_weather_cond_mixedrainandsnow":"Mixed Rain and Snow","location_weather_cond_mixedrainandsleet":"Mixed Rain and Sleet","location_weather_cond_mixedsnowandsleet":"Mixed Snow and Sleet","location_weather_cond_freezingdrizzle":"Freezing Drizzle","location_weather_cond_drizzle":"Drizzle","location_weather_cond_freezingrain":"Freezing Rain","location_weather_cond_showers":"Showers","location_weather_cond_snowflurries":"Snow Flurries","location_weather_cond_lightsnowshowers":"Light Snow Showers","location_weather_cond_blowingsnow":"Blowing Snow","location_weather_cond_snow":"Snow","location_weather_cond_hail":"Hail","location_weather_cond_sleet":"Sleet","location_weather_cond_dust":"Dust","location_weather_cond_foggy":"Foggy","location_weather_cond_haze":"Haze","location_weather_cond_smoky":"Smoky","location_
-weather_cond_blustery":"Blustery","location_weather_cond_windy":"Windy","location_weather_cond_cold":"Cold","location_weather_cond_cloudy":"Cloudy","location_weather_cond_mostlycloudynight":"Mostly Cloudy (Night)","location_weather_cond_mostlycloudyday":"Mostly Cloudy (Day)","location_weather_cond_partlycloudynight":"Partly Cloudy (Night)","location_weather_cond_partlycloudyday":"Partly Cloudy (Day)","location_weather_cond_clearnight":"Clear (Night)","location_weather_cond_sunny":"Sunny","location_weather_cond_fairnight":"Fair (Night)","location_weather_cond_fairday":"Fair (Day)","location_weather_cond_mixedrainandhail":"Mixed Rain And Hail","location_weather_cond_hot":"Hot","location_weather_cond_isolatedthunderstorms":"Isolated Thunderstorms","location_weather_cond_scatteredthunderstorms":"Scattered Thunderstorms","location_weather_cond_scatteredshowers":"Scattered Showers","location_weather_cond_heavysnow":"Heavy Snow","location_weather_cond_scatteredsnowshowers":"Scattered Snow Showers","location_weather_
-cond_partlycloudy":"Partly Cloudy","location_weather_cond_thundershowers":"Thundershowers","location_weather_cond_snowshowers":"Snow Showers","location_weather_cond_isolatedthundershowers":"Isolated Thundershowers","location_weather_cond_notavailable":"Not Available","weather_max_temp":"Max","weather_min_temp":"Min","weather_temp":"Temp","weather_condition":"Condition","weather_wind_speed":"Wind Speed","weather_humidity":"Humidity","weather_pressure":"Pressure","weather_sunrise":"Sunrise","weather_sunset":"Sunset","date_month_name_long_jan":"January","date_month_name_long_feb":"February","date_month_name_long_mar":"March","date_month_name_long_apr":"April","date_month_name_long_may":"May","date_month_name_long_jun":"June","date_month_name_long_jul":"July","date_month_name_long_aug":"August","date_month_name_long_sep":"September","date_month_name_long_oct":"October","date_month_name_long_nov":"November","date_month_name_long_dec":"December","date_month_name_short_jan":"Jan","date_month_name_short_feb":"Feb","
-date_month_name_short_mar":"Mar","date_month_name_short_apr":"Apr","date_month_name_short_may":"May","date_month_name_short_jun":"Jun","date_month_name_short_jul":"Jul","date_month_name_short_aug":"Aug","date_month_name_short_sep":"Sep","date_month_name_short_oct":"Oct","date_month_name_short_nov":"Nov","date_month_name_short_dec":"Dec","date_day_name_long_mon":"Monday","date_day_name_long_tue":"Tuesday","date_day_name_long_wed":"Wednesday","date_day_name_long_thu":"Thursday","date_day_name_long_fri":"Friday","date_day_name_long_sat":"Saturday","date_day_name_long_sun":"Sunday","date_day_name_short_mon":"Mon","date_day_name_short_tue":"Tue","date_day_name_short_wed":"Wed","date_day_name_short_thu":"Thu","date_day_name_short_fri":"Fri","date_day_name_short_sat":"Sat","date_day_name_short_sun":"Sun","date_yesterday":"Yesterday","date_today":"Today","date_tomorrow":"Tomorrow","date_now":"Now","send":"Send","email":"E-Mail","city":"City","cellphone":"Cell","telephone":"Telephone","consultation":"Consultation","
-site_under_construction":"Site under Construction","site_under_maintenance":"Site under Maintenance","news":"News","home":"Home","history":"History","menu":"Menu","message":"Message","reset":"Reset","error_email_empty":"You must give a valid e-mail address","error_name_empty":"You must give a name","error_message_empty":"You must give a message","language_version_en":"English version","language_version_es":"Spanish version","language_version_fr":"French version","datatables_length_menu":"Display _MENU_ records per page","datatables_zero_records":"Nothing found","datatables_info":"Showing page _PAGE_ of _PAGES_","datatables_info_empty":"No records available","datatables_info_filtered":"(filtered from _MAX_ total records)","datatables_empty_table":"No data available in table","datatables_loading_records":"Please wait - loading...","datatables_first":"First","datatables_last":"Last","datatables_next":"Next","datatables_previous":"Previous","datatables_search":"Filter","datatables_search_placeholder":"Search 
-Records","datatables_thousands":",","datatables_decimal":".","main":"Main","password":"Password","repeat_email":"Repeat Email","repeat_pass":"Repeat Password","html_input_control_captcha_label":"Enter the code","html_input_control_captcha_load_code":"Load other code","html_input_control_captcha_error_code":"The captcha code is not correct","html_input_control_captcha_error_expired":"The captcha code has expired","code":"Code","multiple_actions":"Multiple Actions","address":"Address", 'confirm_delete': 'Are you sure you want to delete?'};
+Language.texts['en'] = {"account_activated":"Your account was activated","actions":"Actions","activate_account":"Activate Account","activate_account_complete":"We sent you an e-mail","changed_password":"Your password was changed","change_password":"Change Password","contact_us":"Contact Us","contact_us_complete":"The message was sent","deposits":"Deposits","developed_by":"Developed by","empty_list":"No elements where found","forgot_password":"Forgot your Password","forgot_password_complete":"We sent you an e-mail","login":"Login","logout":"Logout","message_empty":"The message is empty","name_empty":"The name is empty","pass_format":"At least 6 chars. Allowed A-Z 0-9 y - _ .","icon_url":"/static/zframework/icons/flags/en-25.png","flag_class":"icon-flag us","abbr":"en","gmap_view_type_hybrid":"Hybrid View","gmap_view_type_roadmap":"Roadmap View","gmap_view_type_satellite":"Satellite View","gmap_view_type_terrain":"Terrain View","cancel":"Cancel","accept":"Accept","add":"Add","edit":"Edit","delete":"Remove","language_name":"English","loading":"Loading","all":"All","next":"Next","previous":"Previous","download":"Download","print":"Print","save":"Save","update":"Update","close":"Close","select_file":"Select file","name":"Name","value":"Value","optional":"Optional","status":"Status","active":"Active","inactive":"Inactive","used":"Used","new":"New","controls":"Controls","showing":"Showing","of":"of","pages":"Pages","page":"Page","found_1_record":"Found one record","found_n_records":"Found %s records","no_matches_found":"No matches found","search":"Search","option_yes":"Yes","indistinct":"Indistinct","any":"Any","clear":"Clear","select":"Select","not_specified":"Not specified","searching":"Searching","image":"Image","images":"Images","photo":"Photo","photos":"Photos","text":"Text","texts":"Texts","language_version":"English Version","move":"Move","contact":"Contact","contacts":"Contacts","location_weather_cond_tornado":"Tornado","location_weather_cond_tropicalstorm":"Tropical Storm","location_weather_cond_hurricane":"Hurricane","location_weather_cond_severethunderstorms":"Severe Thunderstorms","location_weather_cond_thunderstorms":"Thunderstorms","location_weather_cond_mixedrainandsnow":"Mixed Rain and Snow","location_weather_cond_mixedrainandsleet":"Mixed Rain and Sleet","location_weather_cond_mixedsnowandsleet":"Mixed Snow and Sleet","location_weather_cond_freezingdrizzle":"Freezing Drizzle","location_weather_cond_drizzle":"Drizzle","location_weather_cond_freezingrain":"Freezing Rain","location_weather_cond_showers":"Showers","location_weather_cond_snowflurries":"Snow Flurries","location_weather_cond_lightsnowshowers":"Light Snow Showers","location_weather_cond_blowingsnow":"Blowing Snow","location_weather_cond_snow":"Snow","location_weather_cond_hail":"Hail","location_weather_cond_sleet":"Sleet","location_weather_cond_dust":"Dust","location_weather_cond_foggy":"Foggy","location_weather_cond_haze":"Haze","location_weather_cond_smoky":"Smoky","location_weather_cond_blustery":"Blustery","location_weather_cond_windy":"Windy","location_weather_cond_cold":"Cold","location_weather_cond_cloudy":"Cloudy","location_weather_cond_mostlycloudynight":"Mostly Cloudy (Night)","location_weather_cond_mostlycloudyday":"Mostly Cloudy (Day)","location_weather_cond_partlycloudynight":"Partly Cloudy (Night)","location_weather_cond_partlycloudyday":"Partly Cloudy (Day)","location_weather_cond_clearnight":"Clear (Night)","location_weather_cond_sunny":"Sunny","location_weather_cond_fairnight":"Fair (Night)","location_weather_cond_fairday":"Fair (Day)","location_weather_cond_mixedrainandhail":"Mixed Rain And Hail","location_weather_cond_hot":"Hot","location_weather_cond_isolatedthunderstorms":"Isolated Thunderstorms","location_weather_cond_scatteredthunderstorms":"Scattered Thunderstorms","location_weather_cond_scatteredshowers":"Scattered Showers","location_weather_cond_heavysnow":"Heavy Snow","location_weather_cond_scatteredsnowshowers":"Scattered Snow Showers","location_weather_cond_partlycloudy":"Partly Cloudy","location_weather_cond_thundershowers":"Thundershowers","location_weather_cond_snowshowers":"Snow Showers","location_weather_cond_isolatedthundershowers":"Isolated Thundershowers","location_weather_cond_notavailable":"Not Available","weather_max_temp":"Max","weather_min_temp":"Min","weather_temp":"Temp","weather_condition":"Condition","weather_wind_speed":"Wind Speed","weather_humidity":"Humidity","weather_pressure":"Pressure","weather_sunrise":"Sunrise","weather_sunset":"Sunset","date_month_name_long_jan":"January","date_month_name_long_feb":"February","date_month_name_long_mar":"March","date_month_name_long_apr":"April","date_month_name_long_may":"May","date_month_name_long_jun":"June","date_month_name_long_jul":"July","date_month_name_long_aug":"August","date_month_name_long_sep":"September","date_month_name_long_oct":"October","date_month_name_long_nov":"November","date_month_name_long_dec":"December","date_month_name_short_jan":"Jan","date_month_name_short_feb":"Feb","date_month_name_short_mar":"Mar","date_month_name_short_apr":"Apr","date_month_name_short_may":"May","date_month_name_short_jun":"Jun","date_month_name_short_jul":"Jul","date_month_name_short_aug":"Aug","date_month_name_short_sep":"Sep","date_month_name_short_oct":"Oct","date_month_name_short_nov":"Nov","date_month_name_short_dec":"Dec","date_day_name_long_mon":"Monday","date_day_name_long_tue":"Tuesday","date_day_name_long_wed":"Wednesday","date_day_name_long_thu":"Thursday","date_day_name_long_fri":"Friday","date_day_name_long_sat":"Saturday","date_day_name_long_sun":"Sunday","date_day_name_short_mon":"Mon","date_day_name_short_tue":"Tue","date_day_name_short_wed":"Wed","date_day_name_short_thu":"Thu","date_day_name_short_fri":"Fri","date_day_name_short_sat":"Sat","date_day_name_short_sun":"Sun","date_yesterday":"Yesterday","date_today":"Today","date_tomorrow":"Tomorrow","date_now":"Now","send":"Send","email":"E-Mail","city":"City","cellphone":"Cell","telephone":"Telephone","consultation":"Consultation","site_under_construction":"Site under Construction","site_under_maintenance":"Site under Maintenance","news":"News","home":"Home","history":"History","menu":"Menu","message":"Message","reset":"Reset","error_email_empty":"You must give a valid e-mail address","error_name_empty":"You must give a name","error_message_empty":"You must give a message","language_version_en":"English version","language_version_es":"Spanish version","language_version_fr":"French version","datatables_length_menu":"Display _MENU_ records per page","datatables_zero_records":"Nothing found","datatables_info":"Showing page _PAGE_ of _PAGES_","datatables_info_empty":"No records available","datatables_info_filtered":"(filtered from _MAX_ total records)","datatables_empty_table":"No data available in table","datatables_loading_records":"Please wait - loading...","datatables_first":"First","datatables_last":"Last","datatables_next":"Next","datatables_previous":"Previous","datatables_search":"Filter","datatables_search_placeholder":"SearchRecords","datatables_thousands":",","datatables_decimal":".","main":"Main","password":"Password","repeat_email":"Repeat Email","repeat_pass":"Repeat Password","html_input_control_captcha_label":"Enter the code","html_input_control_captcha_load_code":"Load other code","html_input_control_captcha_error_code":"The captcha code is not correct","html_input_control_captcha_error_expired":"The captcha code has expired","code":"Code","multiple_actions":"Multiple Actions","address":"Address", 'confirm_delete': 'Are you sure you want to delete?'};
 
 //  -----------------------------------------------------------------------------------------------------------------------------
 
@@ -150,7 +98,7 @@ jQuery.KEY_F10 = 121;
 jQuery.KEY_F11 = 122;
 jQuery.KEY_F12 = 123;
 
-//  Configuración de Ajax -----------------------------------------------------------------------------------------------------------------------------
+//  Configuraci�n de Ajax -----------------------------------------------------------------------------------------------------------------------------
 
 
 $(function() {
@@ -252,7 +200,7 @@ $(function() {
     };
 
 //
-//	// Obtiene o establece el tamaño de un elemento -----------------------------------------------------------------------------------
+//	// Obtiene o establece el tama�o de un elemento -----------------------------------------------------------------------------------
 
     jQuery.fn.dimension = function(arg1, arg2) {
 
@@ -299,7 +247,7 @@ $(function() {
 
 
 //
-//	// Obtiene el tamaño interior de un elemento --------------------------------------------------------------------------------------
+//	// Obtiene el tama�o interior de un elemento --------------------------------------------------------------------------------------
 
     jQuery.fn.innerDimension = function() {
         return {width: this.innerWidth(), height: this.innerHeight()};
@@ -307,7 +255,7 @@ $(function() {
 
 
 //
-//	// Obtiene el tamaño exterior de un elemento --------------------------------------------------------------------------------------
+//	// Obtiene el tama�o exterior de un elemento --------------------------------------------------------------------------------------
 
     jQuery.fn.outerDimension = function() {
         return {width: this.outerWidth(), height: this.outerHeight()};
@@ -372,7 +320,7 @@ $(function() {
         return this.length > 0 ? this[0].scrollWidth : null;
     };
 
-    /* Dimensión total del contenido (incluye padding) */
+    /* Dimensi�n total del contenido (incluye padding) */
     jQuery.fn.innerContentDimension = function() {
         return {width: this.innerContentWidth(), height: this.innerContentHeight()};
     };
@@ -390,7 +338,7 @@ $(function() {
     };
 
 
-    /* Dimensión total del contenido (no incluye padding) (no se toma en cuenta si hay scroll) */
+    /* Dimensi�n total del contenido (no incluye padding) (no se toma en cuenta si hay scroll) */
     jQuery.fn.contentDimension = function() {
         return {width: this.contentWidth(), height: this.contentHeight()};
     };
@@ -510,7 +458,7 @@ $(function() {
 
 
 
-    // Obtiene la posición del nodo relativa a su nodo padre -----------------------------------------------------------------
+    // Obtiene la posici�n del nodo relativa a su nodo padre -----------------------------------------------------------------
 
     jQuery.fn.positionRelative = function(ignoreScroll, includeBorder) {
 
@@ -550,7 +498,7 @@ $(function() {
     };
 
 
-    // Obtiene la posición de un nodo descendiente relativa a un nodo ancestro ---------------------------------------------
+    // Obtiene la posici�n de un nodo descendiente relativa a un nodo ancestro ---------------------------------------------
 
     jQuery.fn.positionRelativeTo = function(ancestor, ignoreScroll, includeBorder) {
 
@@ -653,28 +601,28 @@ $(function() {
     };
 
 
-    // Desliza (scroll) sólo verticalmente un elemento padre del nodo para asegurar que que sea visible --------------------
+    // Desliza (scroll) s�lo verticalmente un elemento padre del nodo para asegurar que que sea visible --------------------
 
     jQuery.fn.scrollViewHeight = function(relativeParent) {
         return this.scrollView(relativeParent, 'vertical');
     };
 
 
-    // Desliza (scroll) sólo horizontalmente un elemento padre del nodo para asegurar que que sea visible ------------------
+    // Desliza (scroll) s�lo horizontalmente un elemento padre del nodo para asegurar que que sea visible ------------------
 
     jQuery.fn.scrollViewWidth = function(relativeParent) {
         return this.scrollView(relativeParent, 'horizontal');
     };
 
 
-    // Desliza (scroll) sólo verticalmente la ventana para asegurar que que sea visible --------------------
+    // Desliza (scroll) s�lo verticalmente la ventana para asegurar que que sea visible --------------------
 
     jQuery.fn.scrollWindowViewHeight = function() {
         return this.scrollView(window, 'vertical');
     };
 
 
-    // Desliza (scroll) sólo horizontalmente la ventana para asegurar que que sea visible ------------------
+    // Desliza (scroll) s�lo horizontalmente la ventana para asegurar que que sea visible ------------------
 
     jQuery.fn.scrollWindowViewWidth = function() {
         return this.scrollView(window, 'horizontal');
@@ -1583,7 +1531,7 @@ Object.isArray = function() {
 };
 
 
-/* Aplica una función a cada miembro de un objeto */
+/* Aplica una funci�n a cada miembro de un objeto */
 Object.each = function(obj, handler) {
     return jQuery.each((jQuery.isPlainObject(obj) || jQuery.isArray(obj)) ? obj : [obj], handler);
 };
@@ -1797,13 +1745,13 @@ String.prototype.trim = function(tchar) {
 };
 
 
-/* Versión estática de trim */
+/* Versi�n est�tica de trim */
 String.trim = function(s, tchar) {
     return String(s).trim(tchar);
 };
 
 
-/* Controla si la cadena empieza con otra subcadena (opcionalmente si la comparación debe omitir mayúsculas y minúsculas) */
+/* Controla si la cadena empieza con otra subcadena (opcionalmente si la comparaci�n debe omitir may�sculas y min�sculas) */
 String.prototype.startsWith = function ( prefix, caseInsensitive ) {
     if(!prefix && prefix != '') return false;
     var cadena = String(this);
@@ -1812,7 +1760,7 @@ String.prototype.startsWith = function ( prefix, caseInsensitive ) {
 };
 
 
-/* Controla si la cadena termina con otra subcadena (opcionalmente si la comparación debe omitir mayúsculas y minúsculas) */
+/* Controla si la cadena termina con otra subcadena (opcionalmente si la comparaci�n debe omitir may�sculas y min�sculas) */
 String.prototype.endsWith = function ( sufix, caseInsensitive ) {
     if(!sufix && sufix != '') return false;
     var cadena = String(this);
@@ -1821,7 +1769,7 @@ String.prototype.endsWith = function ( sufix, caseInsensitive ) {
 };
 
 
-/* Elimina una subcadena al final de la cadena (opcionalmente si la comparación debe omitir mayúsculas y minúsculas) */
+/* Elimina una subcadena al final de la cadena (opcionalmente si la comparaci�n debe omitir may�sculas y min�sculas) */
 String.prototype.removeSufix = function ( sufix, caseInsensitive ) {
     var string = String(this);
     if(string.endsWith(sufix, caseInsensitive)) return string.substring( 0, string.length - sufix.length );
@@ -1829,7 +1777,7 @@ String.prototype.removeSufix = function ( sufix, caseInsensitive ) {
 };
 
 
-/* Elimina una subcadena al principio de la cadena (opcionalmente si la comparación debe omitir mayúsculas y minúsculas) */
+/* Elimina una subcadena al principio de la cadena (opcionalmente si la comparaci�n debe omitir may�sculas y min�sculas) */
 String.prototype.removePrefix = function (prefix,caseInsensitive ) {
     var string = String(this);
     if(string.startsWith(prefix, caseInsensitive)) return string.substring(prefix.length);
@@ -1838,7 +1786,7 @@ String.prototype.removePrefix = function (prefix,caseInsensitive ) {
 
 
 
-/* Agrega una subcadena al final de la cadena (si todavía no la tiene) */
+/* Agrega una subcadena al final de la cadena (si todav�a no la tiene) */
 String.prototype.putSufix = function ( sufix, caseInsensitive ) {
     var string = String(this);
     if(!string.endsWith(sufix, caseInsensitive)) return string + sufix;
@@ -1846,7 +1794,7 @@ String.prototype.putSufix = function ( sufix, caseInsensitive ) {
 };
 
 
-/* Agrega una subcadena al principio de la cadena (si todavía no la tiene) */
+/* Agrega una subcadena al principio de la cadena (si todav�a no la tiene) */
 String.prototype.putPrefix = function (prefix,caseInsensitive ) {
     var string = String(this);
     if(!string.startsWith(prefix, caseInsensitive)) return prefix + string;
@@ -1895,7 +1843,7 @@ String.prototype.paddRight = function(paddlen,paddstr) {
 };
 
 
-/* Reemplaza todas las ocurrencias de una subcadena (puede ser un array para especificar distintas subcadenas) por otra (también puede ser un array) */
+/* Reemplaza todas las ocurrencias de una subcadena (puede ser un array para especificar distintas subcadenas) por otra (tambi�n puede ser un array) */
 String.prototype.replaceAll = function(search, replace){
 
     var search_array, replace_array;
@@ -1920,7 +1868,7 @@ String.prototype.replaceAll = function(search, replace){
 
 
 
-/* Reemplaza una expresión regular de acuerdo a una funcion callback */
+/* Reemplaza una expresi�n regular de acuerdo a una funcion callback */
 String.prototype.replaceCallback = function(search, callback) {
     return RegExp.create(search).replaceCallback(this, callback);
 };
@@ -2087,7 +2035,7 @@ Number.isNumeric = function(n)
     return !isNaN(parseFloat(n)) && isFinite(n);
 }
 
-/* Convierte un número decimal a otra base */
+/* Convierte un n�mero decimal a otra base */
 Number.decimalToBase=function(dec, base) {
 
     if(dec < 0) return '-' + Number.decimalToBase(Math.abs(dec), base);
@@ -2132,7 +2080,7 @@ Number.decimalToBin=function(dec) { return Number.decimalToBase(dec,8); };
 /*-------------------------------------------------------------------------------------------*/
 
 
-/* Convertir un número de otra base a decimal */
+/* Convertir un n�mero de otra base a decimal */
 Number.baseToDecimal=function(base_str, base){
 
     base_str = String(base_str).toLowerCase();
@@ -2181,7 +2129,7 @@ Number.thousandsSeparator = '.';
 Number.decimalSeparator = ',';
 
 
-/* Formateo de números */
+/* Formateo de n�meros */
 Number.format = function( number, decimalPlaces, thousandsSeparator, decimalSeparator, autoAddDecimalPlaces ) {
 
     var numberString = String( number );
@@ -2247,7 +2195,7 @@ Number.format = function( number, decimalPlaces, thousandsSeparator, decimalSepa
 
 
 
-/* Parseo de un número */
+/* Parseo de un n�mero */
 Number.parse = function(s, decimalSeparator, thousandsSeparator) {
 
     if(s != null && typeof s == 'number') return s;
@@ -2284,13 +2232,13 @@ Number.parse = function(s, decimalSeparator, thousandsSeparator) {
 
 
 
-/* Parseo de números sólamente enteros */
+/* Parseo de n�meros s�lamente enteros */
 Number.parseInt = function(s, decimalSeparator, thousandsSeparator) {
     return window.parseInt(Number.parse(s, decimalSeparator, thousandsSeparator));
 };
 
 
-/* Parseo de número sólamente decimales */
+/* Parseo de n�mero s�lamente decimales */
 Number.parseFloat = function(s, decimalSeparator, thousandsSeparator) {
     return Number.parse(s, decimalSeparator, thousandsSeparator);
 };
@@ -2299,7 +2247,7 @@ Number.parseFloat = function(s, decimalSeparator, thousandsSeparator) {
 /*-------------------------------------------------------------------------------------------*/
 
 
-/* Redondeo de números */
+/* Redondeo de n�meros */
 Number.round = function(num,num_decimals){
     var move_factor = Math.pow(10, num_decimals == null ? 0 : num_decimals);
     return Math.round(Number(num) * move_factor ) / move_factor;
@@ -2307,7 +2255,7 @@ Number.round = function(num,num_decimals){
 };
 
 
-/* Obtiene un número aleatorio */
+/* Obtiene un n�mero aleatorio */
 Number.random = function ( max, min ) {
 
     if(max == null) max = 100000;
@@ -2465,7 +2413,7 @@ Array.prototype.contains = function(element, forceType){
 };
 
 
-/* Aplica una función a cada elemento del array */
+/* Aplica una funci�n a cada elemento del array */
 Array.prototype.each = function(callback) {
     Array.each(this, callback);
     return this;
@@ -2566,7 +2514,7 @@ Array.prototype.remove = function(element, limit, forceType) {
 
 
 
-/* Abreviación para la inserción de un array */
+/* Abreviaci�n para la inserci�n de un array */
 Array.prototype.insertArray=function(index,array){
     return this.merge(array, index);
 };
@@ -2595,7 +2543,7 @@ Array.prototype.filter = function(callback, recursive) {
 /*----------------------------------------------------------------------------------------------------------------------------------------------- */
 
 
-/* Crea una expresión regular (puede aceptar otra expresión regular)*/
+/* Crea una expresi�n regular (puede aceptar otra expresi�n regular)*/
 RegExp.create = function(value, flags) {
     if(flags == null) flags = '';
 
@@ -2606,7 +2554,7 @@ RegExp.create = function(value, flags) {
 
 };
 
-/* Escapa una cadena de expresión regular */
+/* Escapa una cadena de expresi�n regular */
 RegExp.escape = function(s) {
     return String.escape.regexp(s);
 };
@@ -2618,7 +2566,7 @@ RegExp.prototype.replace = function(string, replace) {
 };
 
 
-/* Reemplaza una expresión regular de acuerdo a una funcion callback */
+/* Reemplaza una expresi�n regular de acuerdo a una funcion callback */
 RegExp.prototype.replaceCallback = function(string, callback) {
 
     var replacedString = '';
@@ -2646,7 +2594,7 @@ RegExp.prototype.replaceCallback = function(string, callback) {
 
 
 /*----------------------------------------------------------------------------------------------------------------------------------------------- */
-/* Configuraciones y funciones de Navegación ---------------------------------------------------------------------------------------------------- */
+/* Configuraciones y funciones de Navegaci�n ---------------------------------------------------------------------------------------------------- */
 /*----------------------------------------------------------------------------------------------------------------------------------------------- */
 
 
@@ -2766,18 +2714,18 @@ Navigation.go = function(href, opts){
 };
 
 
-/* Abreviación del método "go" para peticiones POST */
+/* Abreviaci�n del m�todo "go" para peticiones POST */
 Navigation.post = function(href, vars){
     return Navigation.go(href, {data:vars, method:'post'});
 };
 
-/* Abreviación del método "go" para peticiones POST */
+/* Abreviaci�n del m�todo "go" para peticiones POST */
 Navigation.postBlank = function(href, vars){
     return Navigation.go(href, {data:vars, method:'post', target: '_blank'});
 };
 
 
-/* Abreviación del método "go" para peticiones GET */
+/* Abreviaci�n del m�todo "go" para peticiones GET */
 Navigation.get = function(href, vars, merge){
 
     if(merge) {
@@ -2793,7 +2741,7 @@ Navigation.get = function(href, vars, merge){
 };
 
 
-/* Abreviación del método "go" para peticiones que abren ventanas nuevas */
+/* Abreviaci�n del m�todo "go" para peticiones que abren ventanas nuevas */
 Navigation.openWindow = function(href, opts){
     return Navigation.go(href, jQuery.extend({}, {target:'_blank'}, opts));
 };
@@ -2992,7 +2940,7 @@ Navigation.goBack = function()
 
 /*---------------------------------------------------------------------------------------------------------- */
 
-/* Parsea el valor de una cookie para devolver números o booleanos (no sólo strings) */
+/* Parsea el valor de una cookie para devolver n�meros o booleanos (no s�lo strings) */
 
 Navigation.parseCookieValue=function(val){
     val=String(val);
@@ -3001,7 +2949,7 @@ Navigation.parseCookieValue=function(val){
 };
 
 
-/* Aplica una función a cada cookie del navegador definido en la web (la función se llama con: nombre_cookie, valor_cookie) */
+/* Aplica una funci�n a cada cookie del navegador definido en la web (la funci�n se llama con: nombre_cookie, valor_cookie) */
 Navigation.eachCookie=function(callback, parseCookieValue){
 
     if(parseCookieValue == null) parseCookieValue = true;
@@ -3021,7 +2969,7 @@ Navigation.eachCookie=function(callback, parseCookieValue){
 
 
 /* Se puede llamar de tres formas:
- getCookie() (sin parámetros) devuelve un objeto con todas las cookies
+ getCookie() (sin par�metros) devuelve un objeto con todas las cookies
  getCookie(name..., [defaultValue]) (name es array) devuelve un objeto con las cookies que se solicitaron en el array
  getCookie(name, [defaultValue]) devuelve el valor de la cookie "name" (si no existe devuelve defaultValue)
  */
@@ -3100,7 +3048,7 @@ Navigation.addCookie = function(data,days,path,domain){
 
     if(!data) return;
 
-    /* Si es una cadena, el siguiente parámetro es el valor */
+    /* Si es una cadena, el siguiente par�metro es el valor */
     if(data && typeof data == 'string') {
         var cookieData = {};
         cookieData[data] = arguments[1];
@@ -3201,9 +3149,9 @@ Navigation.logoutHTTPAuth = function(redirectUrl, logoutTestUrl) {
  */
 
 
-/* Nombres de los días de las semana y meses, formatos largos y abreviados */
+/* Nombres de los d�as de las semana y meses, formatos largos y abreviados */
 Date._SDN = ['Lun', 'Mar', 'Mie', 'Jue', 'Vie', 'Sab', 'Dom'];
-Date._DN = ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado', 'Domingo'];
+Date._DN = ['Lunes', 'Martes', 'Mi�rcoles', 'Jueves', 'Viernes', 'S�bado', 'Domingo'];
 Date._SMN = ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic'];
 Date._MN = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
 
@@ -3397,7 +3345,7 @@ Date.prototype.format = function (str) { return Date.formatDate(this, str); };
 
 
 /* --------------------------------------------------------------------------------------------------------- */
-/* Funciones estáticas útiles de fecha */
+/* Funciones est�ticas �tiles de fecha */
 
 
 /* Obtiene la cantidad de dias de un mes */
@@ -3418,7 +3366,7 @@ Date.getMonthDays = function(month, year) {
 
 
 
-/* Obtiene la cantidad de dias de un año */
+/* Obtiene la cantidad de dias de un a�o */
 Date.getYearDays = function(year) {
 
     if(year == null) {
@@ -3460,10 +3408,10 @@ Date.getTime = function() {
 };
 
 /*---------------------------------------------------------------------------------------------------------- */
-/* Funciones adicionales útiles de fecha */
+/* Funciones adicionales �tiles de fecha */
 
 
-/* Obtiene el día del año */
+/* Obtiene el d�a del a�o */
 Date.prototype.getDayOfYear = function() {
     var now = new Date(this.getFullYear(), this.getMonth(), this.getDate(), 0, 0, 0);
     var then = new Date(this.getFullYear(), 0, 0, 0, 0, 0);
@@ -3497,7 +3445,7 @@ Date.prototype.getDays = function( alsoHours ) {
 };
 
 
-/* Establece la cantidad de días */
+/* Establece la cantidad de d�as */
 Date.prototype.setDays = function( days ) {
 
     var year = 0;
@@ -3551,7 +3499,7 @@ Date.prototype.addMonths = function( months ) {
 };
 
 
-/* Agrega años a la fecha */
+/* Agrega a�os a la fecha */
 Date.prototype.addYears = function( years ) {
     this.setFullYear( this.getFullYear() + years );
     return this;
@@ -3604,7 +3552,7 @@ window['encodeURIComponent'] = $.urlencode;
 window['decodeURIComponent'] = $.urldecode;
 
 /*----------------------------------------------------------------------------------------------------------------------------------------------- */
-/* Extensión de Bootstrap Dialog  --------------------------------------------------------------------------------------------------------------- */
+/* Extensi�n de Bootstrap Dialog  --------------------------------------------------------------------------------------------------------------- */
 /*----------------------------------------------------------------------------------------------------------------------------------------------- */
 
 jQuery.modal = new Object();
