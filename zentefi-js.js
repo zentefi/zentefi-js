@@ -1480,6 +1480,24 @@ $(function() {
         return values;
     };
 
+
+    $.fn.firstFocus = function()
+    {
+        var node = this.find('.first-focus');
+
+        if(node.is('.select2-container'))
+        {
+            //node = node.find('a.select2-choice');
+            node.select2('focus');
+        }
+        else
+        {
+            node.focus();
+        }
+
+    };
+
+
     /*----------------------------------------------------------------------------------------------------------------------------------------------- */
 
     $(document).on('resize', $('.fixed-height'), function(evt)
@@ -1500,12 +1518,7 @@ $(function() {
 
     $(document).ready(function() {
         $(window).triggerHandler('resize');
-        var node = $('.first-focus');
-        if(node.is('.select2-container'))
-        {
-            node = node.find('a.select2-choice');
-        }
-        node.focus();
+        $('body').firstFocus();
     });
 
 })(jQuery);
@@ -3628,8 +3641,10 @@ jQuery.fn.zmodal = function(options)
             'margin-top': (($(window).height() - modalDialog.height()) / 2) - 40
         });
 
-        var firstFocus = $(this).find('.' + options['firstFocusClass']).first();
-        setTimeout(function() { firstFocus.focus(); }, options['firstFocusDelay']);
+        var $this = $(this);
+        setTimeout(function() {
+            $this.firstFocus();
+        }, options['firstFocusDelay']);
     });
 
     return $(this).modal(options);
@@ -3638,8 +3653,7 @@ jQuery.fn.zmodal = function(options)
 jQuery.fn.zmodal.defaultOptions =
 {
     'keyboard': true,
-    'firstFocusClass': 'first-focus',
-    'firstFocusDelay': 200,
+    'firstFocusDelay': 100,
     'backdrop': 'static',
     'closeAll': false,
     'show': true
