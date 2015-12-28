@@ -1,9 +1,9 @@
 {
   "name": "zentefi-js",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "zentefi-js",
   "auth": "julito0208",
-  "devDependencies":
+  "dependencies":
   {
 	"jquery": "latest"
   }
