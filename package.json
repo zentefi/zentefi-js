@@ -6,5 +6,9 @@
   "dependencies":
   {
 	"jquery": "latest"
+  },
+  "devDependencies": 
+  {
+	"jquery": "latest"
   }
 }
