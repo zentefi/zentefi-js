@@ -2667,6 +2667,63 @@ Navigation.go = function(href, opts){
 };
 
 
+Navigation.getJSON = function(url, data, callback, method)
+{
+	if(!method)
+	{
+		method = 'get';
+	}
+	
+	var hrefParts = String(url).split('?');
+	
+	var uniqId = jQuery.uniqID();
+	var formId = 'form' + uniqId;
+	var iframeId = 'iframe' + uniqId;
+	
+	var iframe = $('<iframe />').
+		hide().
+		attr('name', iframeId).
+		attr('id', iframeId).
+		appendTo(document.body);
+
+	var form = jQuery('<form />').
+		hide().
+		attr('method', method).
+		attr('target', iframeId).
+		attr('action', hrefParts[0]).
+		appendTo(document.body);
+
+	jQuery.each($.merge($.paramArray(hrefParts[1]), jQuery.paramArray(data)), function(index,param){
+
+		$('<input />').
+			attr('type','hidden').
+			attr('name', param[0]).
+			val(param[1]).
+			appendTo(form);
+	});
+	
+	iframe.bind('load', function() {
+		
+		var response = $(document.getElementById(iframeId).contentDocument.body).text();
+		
+		if(response && callback)
+		{
+			
+			callback.call(this, jQuery.JSON.parse(response));
+		}
+		
+	});
+
+	$("<button type='submit' />").appendTo(form);
+
+	setTimeout(function(){form.find('button').click();}, 50);
+};
+
+Navigation.postJSON = function(url, data, callback)
+{
+	return Navigation.getJSON(url, data, callback, 'post');
+};
+
 /* Abreviaci�n del m�todo "go" para peticiones POST */
 Navigation.post = function(href, vars){
 	return Navigation.go(href, {data:vars, method:'post'});
