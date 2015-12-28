@@ -1,0 +1,89 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/zpf/apps/nodejs/bin/node',
+1 verbose cli   '/zpf/apps/nodejs/bin/npm',
+1 verbose cli   'publish',
+1 verbose cli   '.' ]
+2 info using npm@2.5.1
+3 info using node@v0.12.0
+4 verbose node symlink /zpf/apps/nodejs/bin/node
+5 verbose publish [ '.' ]
+6 silly cache add args [ '.', null ]
+7 verbose cache add spec .
+8 silly cache add parsed spec { raw: '.',
+8 silly cache add   scope: null,
+8 silly cache add   name: null,
+8 silly cache add   rawSpec: '.',
+8 silly cache add   spec: '/home/julio/Proyectos/web/zentefi-js',
+8 silly cache add   type: 'directory' }
+9 verbose addLocalDirectory /home/julio/.npm/zentefi-js/0.0.3/package.tgz not in flight; packing
+10 verbose tar pack [ '/home/julio/.npm/zentefi-js/0.0.3/package.tgz',
+10 verbose tar pack   '/home/julio/Proyectos/web/zentefi-js' ]
+11 verbose tarball /home/julio/.npm/zentefi-js/0.0.3/package.tgz
+12 verbose folder /home/julio/Proyectos/web/zentefi-js
+13 info prepublish zentefi-js@0.0.3
+14 verbose addLocalTarball adding from inside cache /home/julio/.npm/zentefi-js/0.0.3/package.tgz
+15 silly cache afterAdd zentefi-js@0.0.3
+16 verbose afterAdd /home/julio/.npm/zentefi-js/0.0.3/package/package.json not in flight; writing
+17 verbose afterAdd /home/julio/.npm/zentefi-js/0.0.3/package/package.json written
+18 silly publish { name: 'zentefi-js',
+18 silly publish   version: '0.0.3',
+18 silly publish   description: 'zentefi-js',
+18 silly publish   auth: 'julito0208',
+18 silly publish   dependencies: { jquery: 'latest' },
+18 silly publish   devDependencies: { jquery: 'latest' },
+18 silly publish   readme: '# zentefi-js\n',
+18 silly publish   readmeFilename: 'README.md',
+18 silly publish   gitHead: '09d7973a56a6a95bd9d85bbf57f6e9a2420f22f7',
+18 silly publish   _id: 'zentefi-js@0.0.3',
+18 silly publish   scripts: {},
+18 silly publish   _shasum: 'c7789c53c21a0be787634e063e1e57f5610da36d',
+18 silly publish   _from: '.' }
+19 silly mapToRegistry name zentefi-js
+20 silly mapToRegistry using default registry
+21 silly mapToRegistry registry https://registry.npmjs.org/
+22 silly mapToRegistry uri https://registry.npmjs.org/zentefi-js
+23 verbose publish registryBase https://registry.npmjs.org/
+24 silly publish uploading /home/julio/.npm/zentefi-js/0.0.3/package.tgz
+25 verbose request uri https://registry.npmjs.org/zentefi-js
+26 verbose request sending authorization for write operation
+27 info attempt registry request try #1 at 03:16:59
+28 verbose request using bearer token for auth
+29 verbose request id e4e6c6d1b8c0e6ba
+30 http request PUT https://registry.npmjs.org/zentefi-js
+31 http 403 https://registry.npmjs.org/zentefi-js
+32 verbose headers { 'content-type': 'application/json',
+32 verbose headers   'cache-control': 'max-age=300',
+32 verbose headers   'content-length': '95',
+32 verbose headers   'accept-ranges': 'bytes',
+32 verbose headers   date: 'Mon, 28 Dec 2015 06:16:54 GMT',
+32 verbose headers   via: '1.1 varnish',
+32 verbose headers   connection: 'keep-alive',
+32 verbose headers   'x-served-by': 'cache-jfk1029-JFK',
+32 verbose headers   'x-cache': 'MISS',
+32 verbose headers   'x-cache-hits': '0',
+32 verbose headers   'x-timer': 'S1451283412.412681,VS0,VE1798' }
+33 verbose request invalidating /home/julio/.npm/registry.npmjs.org/zentefi-js on PUT
+34 error publish Failed PUT 403
+35 verbose stack Error: "You cannot publish over the previously published version 0.0.3." : zentefi-js
+35 verbose stack     at CachingRegistryClient.<anonymous> (/zpf/apps/node-v0.12.0-linux-x64/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:254:14)
+35 verbose stack     at Request._callback (/zpf/apps/node-v0.12.0-linux-x64/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:178:14)
+35 verbose stack     at Request.self.callback (/zpf/apps/node-v0.12.0-linux-x64/lib/node_modules/npm/node_modules/request/request.js:344:22)
+35 verbose stack     at Request.emit (events.js:110:17)
+35 verbose stack     at Request.<anonymous> (/zpf/apps/node-v0.12.0-linux-x64/lib/node_modules/npm/node_modules/request/request.js:1239:14)
+35 verbose stack     at Request.emit (events.js:129:20)
+35 verbose stack     at IncomingMessage.<anonymous> (/zpf/apps/node-v0.12.0-linux-x64/lib/node_modules/npm/node_modules/request/request.js:1187:12)
+35 verbose stack     at IncomingMessage.emit (events.js:129:20)
+35 verbose stack     at _stream_readable.js:908:16
+35 verbose stack     at process._tickCallback (node.js:355:11)
+36 verbose statusCode 403
+37 verbose pkgid zentefi-js
+38 verbose cwd /home/julio/Proyectos/web/zentefi-js
+39 error Linux 3.16.0-4-amd64
+40 error argv "/zpf/apps/nodejs/bin/node" "/zpf/apps/nodejs/bin/npm" "publish" "."
+41 error node v0.12.0
+42 error npm  v2.5.1
+43 error code E403
+44 error "You cannot publish over the previously published version 0.0.3." : zentefi-js
+45 error If you need help, you may report this error at:
+45 error     <http://github.com/npm/npm/issues>
+46 verbose exit [ 1, true ]
