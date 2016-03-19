@@ -1,49 +1,49 @@
 // Zentefi JS
 
-var Strings = new Object();
+var Texts = new Object();
 
-Strings.Languages = {};
-Strings.Languages.ES = 'es';
-Strings.Languages.EN = 'en';
-Strings.Languages.FR = 'fr';
+Texts.Languages = {};
+Texts.Languages.ES = 'es';
+Texts.Languages.EN = 'en';
+Texts.Languages.FR = 'fr';
 
-Strings.Texts = {};
-Strings.Texts[Strings.Languages.ES] = {};
-Strings.Texts[Strings.Languages.ES]['accept'] = 'Aceptar';
-Strings.Texts[Strings.Languages.ES]['confirm'] = 'Confirmar';
-Strings.Texts[Strings.Languages.ES]['loading'] = 'Cargando';
-Strings.Texts[Strings.Languages.ES]['cancel'] = 'Cancelar';
-Strings.Texts[Strings.Languages.EN] = {};
-Strings.Texts[Strings.Languages.EN]['accept'] = 'Accept';
-Strings.Texts[Strings.Languages.EN]['confirm'] = 'Confirm';
-Strings.Texts[Strings.Languages.EN]['loading'] = 'Loading';
-Strings.Texts[Strings.Languages.EN]['cancel'] = 'Cancel';
+Texts.Texts = {};
+Texts.Texts[Texts.Languages.ES] = {};
+Texts.Texts[Texts.Languages.ES]['accept'] = 'Aceptar';
+Texts.Texts[Texts.Languages.ES]['confirm'] = 'Confirmar';
+Texts.Texts[Texts.Languages.ES]['loading'] = 'Cargando';
+Texts.Texts[Texts.Languages.ES]['cancel'] = 'Cancelar';
+Texts.Texts[Texts.Languages.EN] = {};
+Texts.Texts[Texts.Languages.EN]['accept'] = 'Accept';
+Texts.Texts[Texts.Languages.EN]['confirm'] = 'Confirm';
+Texts.Texts[Texts.Languages.EN]['loading'] = 'Loading';
+Texts.Texts[Texts.Languages.EN]['cancel'] = 'Cancel';
 
-Strings.DefaultLanguage = Strings.Languages.ES;
+Texts.DefaultLanguage = Texts.Languages.ES;
 
-Strings.ParseLanguage = function(language)
+Texts.ParseLanguage = function(language)
 {
     language = String(language);
 
     if(language.match(/^\s*es/i))
     {
-        return Strings.Languages.ES;
+        return Texts.Languages.ES;
     }
     else if(language.match(/^\s*en/i))
     {
-        return Strings.Languages.EN;
+        return Texts.Languages.EN;
     }
     else if(language.match(/^\s*fr/i))
     {
-        return Strings.Languages.FR;
+        return Texts.Languages.FR;
     }
     else
     {
-        return Strings.DefaultLanguage;
+        return Texts.DefaultLanguage;
     }
 };
 
-Strings.ParseTextKey = function(key)
+Texts.ParseTextKey = function(key)
 {
     var parsedKey = String(key);
     parsedKey = parsedKey.toLowerCase();
@@ -51,14 +51,21 @@ Strings.ParseTextKey = function(key)
     return parsedKey;
 };
 
-Strings.Get = function(key, language)
+Texts.Get = function(key, language)
 {
-    key = Strings.ParseTextKey(key);
-    language = Strings.ParseLanguage(language);
+    key = Texts.ParseTextKey(key);
+    language = Texts.ParseLanguage(language);
 
-    return Strings.Texts[language][key];
+    return Texts.Texts[language][key];
 };
 
+function text(key, language)
+{
+    key = Texts.ParseTextKey(key);
+    language = Texts.ParseLanguage(language);
+
+    return Texts.Texts[language][key];
+}
 // Constantes de Teclas
 
 jQuery.KEY_ESC = 27;
@@ -3737,7 +3744,7 @@ jQuery.zmodal.loading = function(callback, options)
 
     var contentBlock = $('<div />').addClass('content-block').appendTo(block).append('<br />').css({'text-align': 'center'});
 
-    var iconBlock = $('<div />').css({'display': 'inline-block', 'margin': '10px auto 30px', 'padding-left': 40, 'background-position': 'left center'}).appendTo(contentBlock).addClass('loading-center-22').html(Strings.Get('loading') + '...');
+    var iconBlock = $('<div />').css({'display': 'inline-block', 'margin': '10px auto 30px', 'padding-left': 40, 'background-position': 'left center'}).appendTo(contentBlock).html('<i class="fa fa-circle-o-notch fa-spin"></i>&nbsp;&nbsp;' + text('loading') + '...');
 
     dialog.on('shown.bs.modal', function() {
         if(callback)
@@ -3763,7 +3770,7 @@ jQuery.zmodal.alert = function(msg, callback, title, options)
     var dialogBody = $('<div />').addClass('modal-body').appendTo(modalContent).append(msg);
     var dialogFooter = $('<div />').addClass('modal-footer').appendTo(modalContent);
 
-    var button = $('<button type="button" />').addClass('btn btn-primary first-focus').html(Strings.Get('accept')).appendTo(dialogFooter);
+    var button = $('<button type="button" />').addClass('btn btn-primary first-focus').html(text('accept')).appendTo(dialogFooter);
 
     button.bind('click', function() {
 
@@ -3814,11 +3821,11 @@ jQuery.zmodal.confirm = function(html, callback, title, options)
     var dialog = $('<div />').addClass('modal fade').appendTo('body');
     var modalDialog = $('<div />').addClass('modal-dialog').appendTo(dialog);
     var modalContent = $('<div />').addClass('modal-content').appendTo(modalDialog);
-    var modalTitle = $('<div />').addClass('modal-header').appendTo(modalContent).append('<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>').append($('<h4 />').html(title ? title : Strings.Get('confirm')).css({'font-weight': 'bold'}));
+    var modalTitle = $('<div />').addClass('modal-header').appendTo(modalContent).append('<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>').append($('<h4 />').html(title ? title : text('confirm')).css({'font-weight': 'bold'}));
     var dialogBody = $('<div />').addClass('modal-body').appendTo(modalContent).append(html);
     var dialogFooter = $('<div />').addClass('modal-footer').appendTo(modalContent);
 
-    var confirmButton = $('<button type="button" />').addClass('btn btn-success first-focus').html(Strings.Get('accept')).appendTo(dialogFooter);
+    var confirmButton = $('<button type="button" />').addClass('btn btn-success first-focus').html(text('accept')).appendTo(dialogFooter);
     confirmButton.bind('click', function() {
 
         if(callback)
@@ -3827,7 +3834,7 @@ jQuery.zmodal.confirm = function(html, callback, title, options)
         }
     });
 
-    var cancelButton = $('<button type="button" />').addClass('btn btn-default').css({'margin-left': 20}).html(Strings.Get('cancel')).appendTo(dialogFooter);
+    var cancelButton = $('<button type="button" />').addClass('btn btn-default').css({'margin-left': 20}).html(text('cancel')).appendTo(dialogFooter);
     cancelButton.bind('click', function() { $.zmodal.close(); });
 
     return dialog.zmodal(options);
@@ -4053,42 +4060,42 @@ $(document).ready(function() {
                 },
                 'success': function (data) {
 
-                    $.zmodal.closeAll();
-
-                    if (data && data['success']) {
-
-                        if(form.triggerHandler('success', data) !== false) {
-
-                            var backUrl = form.attr('data-back-url');
-
-                            if (!backUrl) {
-                                Navigation.reload();
-                            }
-                            else {
-                                Navigation.go(backUrl);
-                            }
-                        }
-
-                    }
-                    else {
-                        var error;
-
-                        if (data && data['error']) {
-                            error = data['error'];
-                        }
-                        else {
-                            error = 'Ocurrió un error desconocido';
-                        }
-
-                        var errorBlock = $('<div />');
-                        errorBlock.addClass('form-error-block alert alert-danger');
-                        errorBlock.text(error);
-
-                        form.prepend(errorBlock);
-
-                        $('.admin-page-title').scrollWindowViewHeight();
-
-                    }
+                    //$.zmodal.closeAll();
+                    //
+                    //if (data && data['success']) {
+                    //
+                    //    if(form.triggerHandler('success', data) !== false) {
+                    //
+                    //        var backUrl = form.attr('data-back-url');
+                    //
+                    //        if (!backUrl) {
+                    //            Navigation.reload();
+                    //        }
+                    //        else {
+                    //            Navigation.go(backUrl);
+                    //        }
+                    //    }
+                    //
+                    //}
+                    //else {
+                    //    var error;
+                    //
+                    //    if (data && data['error']) {
+                    //        error = data['error'];
+                    //    }
+                    //    else {
+                    //        error = 'Ocurrió un error desconocido';
+                    //    }
+                    //
+                    //    var errorBlock = $('<div />');
+                    //    errorBlock.addClass('form-error-block alert alert-danger');
+                    //    errorBlock.text(error);
+                    //
+                    //    form.prepend(errorBlock);
+                    //
+                    //    $('.admin-page-title').scrollWindowViewHeight();
+                    //
+                    //}
                 }
             });
 

@@ -18,15 +18,15 @@ body {
 	font-family: Helvetica, Sans;
 	padding: 0;
 	margin: 0;
-	color: #333;	
+	color: #333;
 	font-size: 11pt;
 }
 
 
 
-* { 
+* {
 	margin: 0;
-	background-repeat: no-repeat; 
+	background-repeat: no-repeat;
 	font-size: inherit;
 }
 
@@ -163,7 +163,7 @@ p { margin-bottom: 20px; }
 
 .border-solid {  border-width: 1px; border-style: solid; }
 
-.separator-top { border-top: solid 1px #DDD; margin-top: 10px; padding-top: 10px; } 
+.separator-top { border-top: solid 1px #DDD; margin-top: 10px; padding-top: 10px; }
 
 .separator-bottom { border-bottom: solid 1px #CCC; margin-bottom: 10px; padding-bottom: 10px; }
 
@@ -281,25 +281,6 @@ span.sup { font-size: 9pt; position: relative; top: -4px; left: 2px; }
 
 
 
-.loading-center-32 {
-	background-image: url(./images/loading-icon-32.gif);
-	background-repeat: no-repeat;
-	background-position: center center;
-}
-
-
-.loading-center-22 {
-	background-image: url("./images/loading-icon-22.gif");
-	background-repeat: no-repeat;
-	background-position: center center;
-}
-
-.loading-center-14 {
-	background-image: url(./images/loading-icon-14.gif);
-	background-repeat: no-repeat;
-	background-position: center center;
-}
-
 .htmlinputcontrol-label {
 	margin: 0 10px 0 0;
 }
@@ -372,29 +353,15 @@ tr.cursor-pointer th {
 }
 
 @media print {
-	
+
 	.not-print,.not-printable {
 		display: none !important;
 	}
 }
 
-
-.modal-dialog
-{
-	/*width: 800px;*/
-	background: #FFF;
-	/*margin-top: 80px !important;*/
-	position: fixed;
-	/*top: 0;*/
-	/*left: 50%;*/
-	border: solid 1px #777;
-	box-shadow: 0 0 2px 2px rgba(0,0,0,0.4);
-	border-radius: 5px;
-}
-
 .modal-backdrop.in
 {
-	background: rgba(0,0,0,0.7);
+	background: rgba(0,0,0,0.7) !important;
 	opacity: 1;
 }
 
