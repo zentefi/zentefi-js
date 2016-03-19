@@ -4046,6 +4046,22 @@ $(document).ready(function() {
 
         form.find('.form-error-block').remove();
 
+        var bsValidator = null;
+
+        if(form.data('bootstrapValidator'))
+        {
+            bsValidator = form.data('bootstrapValidator');
+        }
+        else if(form.data('bs.validator'))
+        {
+            bsValidator = form.data('bs.validator');
+        }
+
+        if(bsValidator && bsValidator.hasErrors && bsValidator.hasErrors())
+        {
+            return false;
+        }
+
         var ajaxFunction = function () {
 
             $.ajax({
@@ -4060,42 +4076,53 @@ $(document).ready(function() {
                 },
                 'success': function (data) {
 
-                    //$.zmodal.closeAll();
-                    //
-                    //if (data && data['success']) {
-                    //
-                    //    if(form.triggerHandler('success', data) !== false) {
-                    //
-                    //        var backUrl = form.attr('data-back-url');
-                    //
-                    //        if (!backUrl) {
-                    //            Navigation.reload();
-                    //        }
-                    //        else {
-                    //            Navigation.go(backUrl);
-                    //        }
-                    //    }
-                    //
-                    //}
-                    //else {
-                    //    var error;
-                    //
-                    //    if (data && data['error']) {
-                    //        error = data['error'];
-                    //    }
-                    //    else {
-                    //        error = 'Ocurrió un error desconocido';
-                    //    }
-                    //
-                    //    var errorBlock = $('<div />');
-                    //    errorBlock.addClass('form-error-block alert alert-danger');
-                    //    errorBlock.text(error);
-                    //
-                    //    form.prepend(errorBlock);
-                    //
-                    //    $('.admin-page-title').scrollWindowViewHeight();
-                    //
-                    //}
+                    $.zmodal.closeAll();
+
+                    if (data && data['success']) {
+
+                        if(form.triggerHandler('success', data) !== false) {
+
+                            var successUrl = form.attr('data-success-url');
+
+                            if (!successUrl) {
+
+                                successUrl = data['redirect'];
+
+                                if(successUrl)
+                                {
+                                    Navigation.go(successUrl);
+                                }
+                                else
+                                {
+                                    Navigation.reload();
+                                }
+
+                            }
+                            else {
+                                Navigation.go(successUrl);
+                            }
+                        }
+
+                    }
+                    else {
+                        var error;
+
+                        if (data && data['error']) {
+                            error = data['error'];
+                        }
+                        else {
+                            error = 'Ocurrió un error desconocido';
+                        }
+
+                        var errorBlock = $('<div />');
+                        errorBlock.addClass('form-error-block alert alert-danger');
+                        errorBlock.text(error);
+
+                        form.prepend(errorBlock);
+
+                        errorBlock.scrollWindowViewHeight();
+
+                    }
                 }
             });
 
