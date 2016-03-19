@@ -1,3 +1,63 @@
+// Zentefi JS
+
+var Strings = new Object();
+
+Strings.Languages = {};
+Strings.Languages.ES = 'es';
+Strings.Languages.EN = 'en';
+Strings.Languages.FR = 'fr';
+
+Strings.Texts = {};
+Strings.Texts[Strings.Languages.ES] = {};
+Strings.Texts[Strings.Languages.ES]['accept'] = 'Aceptar';
+Strings.Texts[Strings.Languages.ES]['confirm'] = 'Confirmar';
+Strings.Texts[Strings.Languages.ES]['loading'] = 'Cargando';
+Strings.Texts[Strings.Languages.ES]['cancel'] = 'Cancelar';
+Strings.Texts[Strings.Languages.EN] = {};
+Strings.Texts[Strings.Languages.EN]['accept'] = 'Accept';
+Strings.Texts[Strings.Languages.EN]['confirm'] = 'Confirm';
+Strings.Texts[Strings.Languages.EN]['loading'] = 'Loading';
+Strings.Texts[Strings.Languages.EN]['cancel'] = 'Cancel';
+
+Strings.DefaultLanguage = Strings.Languages.ES;
+
+Strings.ParseLanguage = function(language)
+{
+    language = String(language);
+
+    if(language.match(/^\s*es/i))
+    {
+        return Strings.Languages.ES;
+    }
+    else if(language.match(/^\s*en/i))
+    {
+        return Strings.Languages.EN;
+    }
+    else if(language.match(/^\s*fr/i))
+    {
+        return Strings.Languages.FR;
+    }
+    else
+    {
+        return Strings.DefaultLanguage;
+    }
+};
+
+Strings.ParseTextKey = function(key)
+{
+    var parsedKey = String(key);
+    parsedKey = parsedKey.toLowerCase();
+    parsedKey = parsedKey.replace(/(\s+|[^0-9a-zA-Z\_\-]+)+/g, '');
+    return parsedKey;
+};
+
+Strings.Get = function(key, language)
+{
+    key = Strings.ParseTextKey(key);
+    language = Strings.ParseLanguage(language);
+
+    return Strings.Texts[language][key];
+};
 
 // Constantes de Teclas
 
@@ -138,7 +198,7 @@ $.ajaxSetup({
     };
 
 //
-//	// Obtiene o establece el tamaï¿½o de un elemento -----------------------------------------------------------------------------------
+//  // Obtiene o establece el tamaï¿½o de un elemento -----------------------------------------------------------------------------------
 
     jQuery.fn.dimension = function(arg1, arg2) {
 
@@ -185,7 +245,7 @@ $.ajaxSetup({
 
 
 //
-//	// Obtiene el tamaï¿½o interior de un elemento --------------------------------------------------------------------------------------
+//  // Obtiene el tamaï¿½o interior de un elemento --------------------------------------------------------------------------------------
 
     jQuery.fn.innerDimension = function() {
         return {width: this.innerWidth(), height: this.innerHeight()};
@@ -193,7 +253,7 @@ $.ajaxSetup({
 
 
 //
-//	// Obtiene el tamaï¿½o exterior de un elemento --------------------------------------------------------------------------------------
+//  // Obtiene el tamaï¿½o exterior de un elemento --------------------------------------------------------------------------------------
 
     jQuery.fn.outerDimension = function() {
         return {width: this.outerWidth(), height: this.outerHeight()};
@@ -282,7 +342,7 @@ $.ajaxSetup({
     };
 //
 //
-//	/*----------------------------------------------------------------------------------------------------------*/
+//  /*----------------------------------------------------------------------------------------------------------*/
 //
     var parseSizeValue = function(value, coordenate, element, parent) {
 
@@ -294,7 +354,7 @@ $.ajaxSetup({
 
                 var value = String(value).replace(/\s/g, '').toLowerCase();
 
-                if(value == '')	return 0;
+                if(value == '') return 0;
 
                 match = value.match(/^(\d+(?:\.\d+)?)(?:px|(\%))?$/);
 
@@ -856,7 +916,7 @@ $.ajaxSetup({
                 var $this=jQuery(this);
                 var name=$this.attr('name'), value=$this.val();
 
-                if(	name &&
+                if( name &&
                     (opts.allowDisabled || !Boolean($this.attr('disabled'))) &&
                     ( $this.is(':not(:checkbox,:radio)') || $this.is(':checked') ) &&
                     ( ( $this.is('select') && Boolean($this.attr('multiple')) ) || value !== null ) )
@@ -1779,7 +1839,7 @@ String.prototype.paddLeft = function(paddlen,paddstr) {
     paddlen = Number(paddlen); var output = String(this);
 
     if(output.length < paddlen) {
-        while(output.length < paddlen) 	output = paddstr + output;
+        while(output.length < paddlen)  output = paddstr + output;
         if(output.length > paddlen) output = output.substring(output.length - paddlen);
     }
     return output;
@@ -2555,21 +2615,21 @@ RegExp.prototype.replaceCallback = function(string, callback) {
 
 var Navigation = {};
 
-Navigation.host = location.host;					/* Host */
+Navigation.host = location.host;                    /* Host */
 
-Navigation.hostname = location.hostname;			/* Nombre del host */
+Navigation.hostname = location.hostname;            /* Nombre del host */
 
-Navigation.pathname = location.pathname;			/* Path */
+Navigation.pathname = location.pathname;            /* Path */
 
-Navigation.port = location.port;					/* Puerto */
+Navigation.port = location.port;                    /* Puerto */
 
-Navigation.protocol = location.protocol;			/* Protocolo */
+Navigation.protocol = location.protocol;            /* Protocolo */
 
-Navigation.document = location.href.split(location.href.indexOf('?') == -1 ? '#' : '?').shift();			/* Direccion url (sin las variables GET) */
+Navigation.document = location.href.split(location.href.indexOf('?') == -1 ? '#' : '?').shift();            /* Direccion url (sin las variables GET) */
 
 Navigation.url = location.href.split('#').shift();
 
-Navigation.baseURL = String($('base').attr('href') ? $('base').attr('href') : Navigation.document).replace(new RegExp('/+$','g'),'')+'/';		/* Base url de la web */
+Navigation.baseURL = String($('base').attr('href') ? $('base').attr('href') : Navigation.document).replace(new RegExp('/+$','g'),'')+'/';       /* Base url de la web */
 
 Navigation.serverURL = location.href.replace(new RegExp('^([A-Za-z]+\://(?:\w|\.|\-|\_|\:|\@|\=)+?)(?:/.*)?$'), '$1');
 
@@ -3061,33 +3121,33 @@ Navigation.logoutHTTPAuth = function(redirectUrl, logoutTestUrl) {
 /*----------------------------------------------------------------------------------------------------------------------------------------------- */
 
 /* Simbolos de Parseo de Fechas
- %a 	abbreviated weekday name
- %A 	full weekday name
- %b 	abbreviated month name
- %B 	full month name
- %C 	century number
- %d 	the day of the month ( 00 .. 31 )
- %e 	the day of the month ( 0 .. 31 )
- %H 	hour ( 00 .. 23 )
- %I 	hour ( 01 .. 12 )
- %j 	day of the year ( 000 .. 366 )
- %k 	hour ( 0 .. 23 )
- %l 	hour ( 1 .. 12 )
- %m 	month ( 01 .. 12 )
+ %a     abbreviated weekday name
+ %A     full weekday name
+ %b     abbreviated month name
+ %B     full month name
+ %C     century number
+ %d     the day of the month ( 00 .. 31 )
+ %e     the day of the month ( 0 .. 31 )
+ %H     hour ( 00 .. 23 )
+ %I     hour ( 01 .. 12 )
+ %j     day of the year ( 000 .. 366 )
+ %k     hour ( 0 .. 23 )
+ %l     hour ( 1 .. 12 )
+ %m     month ( 01 .. 12 )
  %o  month ( 1 .. 12 )
- %M 	minute ( 00 .. 59 )
- %n 	a newline character
- %p 	``PM'' or ``AM''
- %P 	``pm'' or ``am''
- %S 	second ( 00 .. 59 )
- %s 	number of seconds since Epoch (since Jan 01 1970 00:00:00 UTC)
- %t 	a tab character
- %U, %W, %V 	the week number
- %u 	the day of the week ( 1 .. 7, 1 = MON )
- %w 	the day of the week ( 0 .. 6, 0 = SUN )
- %y 	year without the century ( 00 .. 99 )
- %Y 	year including the century ( ex. 1979 )
- %% 	a literal % character
+ %M     minute ( 00 .. 59 )
+ %n     a newline character
+ %p     ``PM'' or ``AM''
+ %P     ``pm'' or ``am''
+ %S     second ( 00 .. 59 )
+ %s     number of seconds since Epoch (since Jan 01 1970 00:00:00 UTC)
+ %t     a tab character
+ %U, %W, %V     the week number
+ %u     the day of the week ( 1 .. 7, 1 = MON )
+ %w     the day of the week ( 0 .. 6, 0 = SUN )
+ %y     year without the century ( 00 .. 99 )
+ %Y     year including the century ( ex. 1979 )
+ %%     a literal % character
  */
 
 
@@ -3097,8 +3157,8 @@ Date._DN = ['Lunes', 'Martes', 'Miï¿½rcoles', 'Jueves', 'Viernes', 'Sï¿½ba
 Date._SMN = ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic'];
 Date._MN = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
 
-Date._defaultOutputFormat = '%d/%m/%Y %H:%M';		/* Expresion de formato por defecto */
-Date._defaultInputFormat = '%Y-%m-%d %k:%M:%S'; 	/* Expresion de parseo por defecto */
+Date._defaultOutputFormat = '%d/%m/%Y %H:%M';       /* Expresion de formato por defecto */
+Date._defaultInputFormat = '%Y-%m-%d %k:%M:%S';     /* Expresion de parseo por defecto */
 
 
 /* --------------------------------------------------------------------------------------------------------- */
@@ -3116,7 +3176,7 @@ Date.parseDate = function(str, fmt) {
 
     for (i = 0; i < a.length; ++i) {
 
-        if (!a[i]) 	continue;
+        if (!a[i])  continue;
 
         switch (b[i]) {
 
@@ -3228,28 +3288,28 @@ Date.formatDate = function (date, str) {
     s["%H"] = (hr < 10) ? ("0" + hr) : hr; // hour, range 00 to 23 (24h format)
     s["%I"] = (ir < 10) ? ("0" + ir) : ir; // hour, range 01 to 12 (12h format)
     s["%j"] = (dy < 100) ? ((dy < 10) ? ("00" + dy) : ("0" + dy)) : dy; // day of the year (range 001 to 366)
-    s["%k"] = hr;		// hour, range 0 to 23 (24h format)
-    s["%l"] = ir;		// hour, range 1 to 12 (12h format)
+    s["%k"] = hr;       // hour, range 0 to 23 (24h format)
+    s["%l"] = ir;       // hour, range 1 to 12 (12h format)
     s["%m"] = (m < 9) ? ("0" + (1+m)) : (1+m); // month, range 01 to 12
     s["%o"] = (1+m); // month, range 1 to 12
     s["%M"] = (min < 10) ? ("0" + min) : min; // minute, range 00 to 59
-    s["%n"] = "\n";		// a newline character
+    s["%n"] = "\n";     // a newline character
     s["%p"] = pm ? "PM" : "AM";
     s["%P"] = pm ? "pm" : "am";
     // FIXME: %r : the time in am/pm notation %I:%M:%S %p
     // FIXME: %R : the time in 24-hour notation %H:%M
     s["%s"] = Math.floor(date.getTime() / 1000);
     s["%S"] = (sec < 10) ? ("0" + sec) : sec; // seconds, range 00 to 59
-    s["%t"] = "\t";		// a tab character
+    s["%t"] = "\t";     // a tab character
     // FIXME: %T : the time in 24-hour notation (%H:%M:%S)
     s["%U"] = s["%W"] = s["%V"] = (wn < 10) ? ("0" + wn) : wn;
-    s["%u"] = String(w_monday);	// the day of the week (range 1 to 7, 1 = MON)
-    s["%w"] = String(w);		// the day of the week (range 0 to 6, 0 = SUN)
+    s["%u"] = String(w_monday); // the day of the week (range 1 to 7, 1 = MON)
+    s["%w"] = String(w);        // the day of the week (range 0 to 6, 0 = SUN)
     // FIXME: %x : preferred date representation for the current locale without the time
     // FIXME: %X : preferred time representation for the current locale without the date
     s["%y"] = ('' + y).substr(2, 2); // year without the century (range 00 to 99)
-    s["%Y"] = y;		// year with the century
-    s["%%"] = "%";		// a literal '%' character
+    s["%Y"] = y;        // year with the century
+    s["%%"] = "%";      // a literal '%' character
 
     var re = /%./g;
 
@@ -3482,11 +3542,11 @@ Date.prototype.setUnixTime = function(s) {
 //window['_unescape'] = window['unescape'];
 //
 //window['escape'] = function(s) {
-//	return window['_escape'](s).replace(/\+/g, '%2B');
+//  return window['_escape'](s).replace(/\+/g, '%2B');
 //};
 //
 //window['unescape'] = function(s) {
-//	return window['_unescape'](s).replace(/\%2B/g, '+');
+//  return window['_unescape'](s).replace(/\%2B/g, '+');
 //};
 //
 ///* For jquery $.param compat, iso-8859-15 not working in 1.9 */
@@ -4017,7 +4077,7 @@ $(document).ready(function() {
                             error = data['error'];
                         }
                         else {
-                            error = 'OcurriÃ³ un error desconocido';
+                            error = 'Ocurrió un error desconocido';
                         }
 
                         var errorBlock = $('<div />');
