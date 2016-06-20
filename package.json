@@ -5,10 +5,6 @@
   "auth": "julito0208",
   "dependencies":
   {
-	"jquery": "latest"
-  },
-  "devDependencies": 
-  {
-	"jquery": "latest"
+	"jquery": "~1"
   }
 }
