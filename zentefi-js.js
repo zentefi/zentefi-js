@@ -958,7 +958,7 @@ $.ajaxSetup({
             var key_array_pos = key.lastIndexOf('[]');
             if(key_array_pos>0 && key_array_pos == key.length-2) {
                 key=key.substr(0,key.length-2);
-                if(map[key]==null) map[key]=[];
+                if(map[key]==null || typeof map[key] == "undefined") map[key]=[];
                 map[key].push(data[1]);
             } else map[key]=data[1];
         });
@@ -979,7 +979,13 @@ $.ajaxSetup({
         jQuery.each(jQuery.paramArray(obj,opts), function(index,data){
 
             var str_value = typeof data[1] == 'bool' ? ( data[1] ? '1' : '0') : String(data[1]);
-            if(str_value.length > 0) array.push(strfunc(data[0])+opts.assign+strfunc(data[1]));
+
+            if(data[1] == null || typeof data[1] == 'undefined')
+            {
+                str_value = '';
+            }
+
+            if(str_value.length > 0) array.push(strfunc(data[0])+opts.assign+strfunc(str_value));
         });
 
         return array.join(opts.separator);
