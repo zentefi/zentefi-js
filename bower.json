@@ -2,7 +2,7 @@
   "name": "zentefi-js",
   "license": "GNU",
   "version": "0.1",
-  "main": ["./zentefi-js.js"],
+  "main": ["./zentefi-js.js", "./zentefi-css.css"],
   "ignore": [],
   "dependencies": {
     "ajaxform": "~1.1.1",
